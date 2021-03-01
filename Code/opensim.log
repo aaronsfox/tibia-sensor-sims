@@ -1,0 +1,1840 @@
+[2021-02-16 13:58:24.070] [info] Processing subject ...
+[2021-02-16 13:58:24.070] [info] Step 1: Loading generic model
+[2021-02-16 13:58:24.126] [info] Loaded model LaiArnold2017_refined_Fukuchi2017-Running from file ..\..\OpensimModel\LaiArnold2017_refined_Fukuchi2017-running.osim
+[2021-02-16 13:58:24.129] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 13:58:24.255] [info] Step 2: Scaling generic model
+[2021-02-16 13:58:24.331] [info] Loaded marker file RBDS001static.trc (48 markers, 150 frames)
+[2021-02-16 13:58:24.331] [info] Measurement 'pelvis_w'
+[2021-02-16 13:58:24.332] [info] 	pair 0 (R.ASIS, L.ASIS): model = 0.226592, experimental = 0.211665
+[2021-02-16 13:58:24.332] [info] 	pair 1 (R.PSIS, L.PSIS): model = 0.0910868, experimental = 0.0768436
+[2021-02-16 13:58:24.333] [info] 	overall scale factor = 0.888878
+[2021-02-16 13:58:24.333] [info] Measurement 'pelvis_d'
+[2021-02-16 13:58:24.333] [info] 	pair 0 (R.ASIS, R.PSIS): model = 0.180152, experimental = 0.18215
+[2021-02-16 13:58:24.333] [info] 	pair 1 (L.ASIS, L.PSIS): model = 0.180152, experimental = 0.188691
+[2021-02-16 13:58:24.334] [info] 	overall scale factor = 1.02925
+[2021-02-16 13:58:24.334] [info] Measurement 'pelvis_h'
+[2021-02-16 13:58:24.334] [info] 	pair 0 (R.ASIS, R.GTR): model = 0.143787, experimental = 0.141161
+[2021-02-16 13:58:24.334] [info] 	pair 1 (L.ASIS, L.GTR): model = 0.143787, experimental = 0.145919
+[2021-02-16 13:58:24.334] [info] 	pair 2 (R.PSIS, R.GTR): model = 0.191764, experimental = 0.193827
+[2021-02-16 13:58:24.334] [info] 	pair 3 (L.PSIS, L.GTR): model = 0.191763, experimental = 0.208402
+[2021-02-16 13:58:24.334] [info] 	pair 4 (R.Iliac.Crest, R.GTR): model = 0.203546, experimental = 0.173724
+[2021-02-16 13:58:24.335] [info] 	pair 5 (L.Iliac.Crest, L.GTR): model = 0.203546, experimental = 0.173833
+[2021-02-16 13:58:24.335] [info] 	overall scale factor = 0.966935
+[2021-02-16 13:58:24.335] [info] Measurement 'r_thigh_length'
+[2021-02-16 13:58:24.335] [info] 	pair 0 (R.GTR, R.Knee): model = 0.363281, experimental = 0.414263
+[2021-02-16 13:58:24.335] [info] 	overall scale factor = 1.14034
+[2021-02-16 13:58:24.335] [info] Measurement 'r_thigh_breadth'
+[2021-02-16 13:58:24.335] [info] 	pair 0 (R.Knee, R.Knee.Medial): model = 0.109391, experimental = 0.116991
+[2021-02-16 13:58:24.336] [info] 	overall scale factor = 1.06948
+[2021-02-16 13:58:24.336] [info] Measurement 'r_tibia_length'
+[2021-02-16 13:58:24.336] [info] 	pair 0 (R.HF, R.Ankle): model = 0.318649, experimental = 0.382141
+[2021-02-16 13:58:24.336] [info] 	overall scale factor = 1.19925
+[2021-02-16 13:58:24.337] [info] Measurement 'r_tibia_breadth'
+[2021-02-16 13:58:24.338] [info] 	pair 0 (R.Ankle, R.Ankle.Medial): model = 0.0912157, experimental = 0.0848813
+[2021-02-16 13:58:24.338] [info] 	overall scale factor = 0.930556
+[2021-02-16 13:58:24.338] [info] Measurement 'r_foot_length'
+[2021-02-16 13:58:24.339] [info] 	pair 0 (R.Heel.Top, R.MT2): model = 0.216289, experimental = 0.216893
+[2021-02-16 13:58:24.339] [info] 	overall scale factor = 1.00279
+[2021-02-16 13:58:24.339] [info] Measurement 'r_foot_height'
+[2021-02-16 13:58:24.339] [info] 	pair 0 (R.Heel.Top, R.Heel.Bottom): model = 0.0424332, experimental = 0.0495037
+[2021-02-16 13:58:24.339] [info] 	overall scale factor = 1.16663
+[2021-02-16 13:58:24.340] [info] Measurement 'l_thigh_length'
+[2021-02-16 13:58:24.340] [info] 	pair 0 (L.GTR, L.Knee): model = 0.363281, experimental = 0.417753
+[2021-02-16 13:58:24.340] [info] 	overall scale factor = 1.14994
+[2021-02-16 13:58:24.340] [info] Measurement 'l_thigh_breadth'
+[2021-02-16 13:58:24.340] [info] 	pair 0 (L.Knee, L.Knee.Medial): model = 0.109391, experimental = 0.112262
+[2021-02-16 13:58:24.340] [info] 	overall scale factor = 1.02625
+[2021-02-16 13:58:24.341] [info] Measurement 'l_tibia_length'
+[2021-02-16 13:58:24.343] [info] 	pair 0 (L.HF, L.Ankle): model = 0.318649, experimental = 0.38299
+[2021-02-16 13:58:24.343] [info] 	overall scale factor = 1.20192
+[2021-02-16 13:58:24.344] [info] Measurement 'l_tibia_breadth'
+[2021-02-16 13:58:24.344] [info] 	pair 0 (L.Ankle, L.Ankle.Medial): model = 0.0912157, experimental = 0.0814099
+[2021-02-16 13:58:24.344] [info] 	overall scale factor = 0.892499
+[2021-02-16 13:58:24.344] [info] Measurement 'l_foot_length'
+[2021-02-16 13:58:24.344] [info] 	pair 0 (L.Heel.Top, L.MT2): model = 0.216289, experimental = 0.220212
+[2021-02-16 13:58:24.345] [info] 	overall scale factor = 1.01814
+[2021-02-16 13:58:24.345] [info] Measurement 'l_foot_height'
+[2021-02-16 13:58:24.345] [info] 	pair 0 (L.Heel.Top, L.Heel.Bottom): model = 0.0424332, experimental = 0.0483985
+[2021-02-16 13:58:24.345] [info] 	overall scale factor = 1.14058
+[2021-02-16 13:58:24.590] [info] Wrote model file 'RBDS001_scaledModel.osim' from model.
+[2021-02-16 13:58:24.596] [info] Wrote scale file 'RBDS001_scaleSet.xml' for model model.
+[2021-02-16 13:58:24.596] [info] Step 3: Placing markers on model
+[2021-02-16 13:58:24.625] [info] Loaded marker file RBDS001static.trc (48 markers, 150 frames)
+[2021-02-16 13:58:24.626] [info] Averaged frames from time 0.0 to 0.5 in RBDS001static.trc (frames 1 to 76)
+[2021-02-16 13:58:24.626] [info] Deleted 1 unused markers from model model.
+[2021-02-16 13:58:24.718] [info] Frame at (t = 0.0):	 total squared error = 0.0145283, marker error: RMS = 0.0231967, max = 0.037528 (L.TT)
+[2021-02-16 13:58:24.718] [info] Moved markers in model model to match locations in marker file 'RBDS001static.trc'.
+[2021-02-16 13:58:24.869] [info] Wrote model file 'RBDS001_scaledModelAdjusted.osim' from model model.
+[2021-02-16 14:31:44.350] [info] Processing subject ...
+[2021-02-16 14:31:44.350] [info] Step 1: Loading generic model
+[2021-02-16 14:31:44.403] [info] Loaded model LaiArnold2017_refined_Fukuchi2017-Running from file ..\..\OpensimModel\LaiArnold2017_refined_Fukuchi2017-running.osim
+[2021-02-16 14:31:44.425] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 14:31:44.542] [info] Step 2: Scaling generic model
+[2021-02-16 14:31:44.616] [info] Loaded marker file RBDS001static.trc (48 markers, 150 frames)
+[2021-02-16 14:31:44.616] [info] Measurement 'pelvis_w'
+[2021-02-16 14:31:44.617] [info] 	pair 0 (R.ASIS, L.ASIS): model = 0.226592, experimental = 0.211665
+[2021-02-16 14:31:44.618] [info] 	pair 1 (R.PSIS, L.PSIS): model = 0.0910868, experimental = 0.0768436
+[2021-02-16 14:31:44.618] [info] 	overall scale factor = 0.888878
+[2021-02-16 14:31:44.618] [info] Measurement 'pelvis_d'
+[2021-02-16 14:31:44.618] [info] 	pair 0 (R.ASIS, R.PSIS): model = 0.180152, experimental = 0.18215
+[2021-02-16 14:31:44.619] [info] 	pair 1 (L.ASIS, L.PSIS): model = 0.180152, experimental = 0.188691
+[2021-02-16 14:31:44.620] [info] 	overall scale factor = 1.02925
+[2021-02-16 14:31:44.620] [info] Measurement 'pelvis_h'
+[2021-02-16 14:31:44.621] [info] 	pair 0 (R.ASIS, R.GTR): model = 0.143787, experimental = 0.141161
+[2021-02-16 14:31:44.621] [info] 	pair 1 (L.ASIS, L.GTR): model = 0.143787, experimental = 0.145919
+[2021-02-16 14:31:44.621] [info] 	pair 2 (R.PSIS, R.GTR): model = 0.191764, experimental = 0.193827
+[2021-02-16 14:31:44.621] [info] 	pair 3 (L.PSIS, L.GTR): model = 0.191763, experimental = 0.208402
+[2021-02-16 14:31:44.622] [info] 	pair 4 (R.Iliac.Crest, R.GTR): model = 0.203546, experimental = 0.173724
+[2021-02-16 14:31:44.622] [info] 	pair 5 (L.Iliac.Crest, L.GTR): model = 0.203546, experimental = 0.173833
+[2021-02-16 14:31:44.622] [info] 	overall scale factor = 0.966935
+[2021-02-16 14:31:44.622] [info] Measurement 'r_thigh_length'
+[2021-02-16 14:31:44.623] [info] 	pair 0 (R.GTR, R.Knee): model = 0.363281, experimental = 0.414263
+[2021-02-16 14:31:44.623] [info] 	overall scale factor = 1.14034
+[2021-02-16 14:31:44.623] [info] Measurement 'r_thigh_breadth'
+[2021-02-16 14:31:44.623] [info] 	pair 0 (R.Knee, R.Knee.Medial): model = 0.109391, experimental = 0.116991
+[2021-02-16 14:31:44.624] [info] 	overall scale factor = 1.06948
+[2021-02-16 14:31:44.624] [info] Measurement 'r_tibia_length'
+[2021-02-16 14:31:44.624] [info] 	pair 0 (R.HF, R.Ankle): model = 0.318649, experimental = 0.382141
+[2021-02-16 14:31:44.624] [info] 	overall scale factor = 1.19925
+[2021-02-16 14:31:44.624] [info] Measurement 'r_tibia_breadth'
+[2021-02-16 14:31:44.625] [info] 	pair 0 (R.Ankle, R.Ankle.Medial): model = 0.0912157, experimental = 0.0848813
+[2021-02-16 14:31:44.625] [info] 	overall scale factor = 0.930556
+[2021-02-16 14:31:44.627] [info] Measurement 'r_foot_length'
+[2021-02-16 14:31:44.627] [info] 	pair 0 (R.Heel.Top, R.MT2): model = 0.216289, experimental = 0.216893
+[2021-02-16 14:31:44.627] [info] 	overall scale factor = 1.00279
+[2021-02-16 14:31:44.627] [info] Measurement 'r_foot_height'
+[2021-02-16 14:31:44.627] [info] 	pair 0 (R.Heel.Top, R.Heel.Bottom): model = 0.0424332, experimental = 0.0495037
+[2021-02-16 14:31:44.628] [info] 	overall scale factor = 1.16663
+[2021-02-16 14:31:44.628] [info] Measurement 'l_thigh_length'
+[2021-02-16 14:31:44.628] [info] 	pair 0 (L.GTR, L.Knee): model = 0.363281, experimental = 0.417753
+[2021-02-16 14:31:44.628] [info] 	overall scale factor = 1.14994
+[2021-02-16 14:31:44.629] [info] Measurement 'l_thigh_breadth'
+[2021-02-16 14:31:44.629] [info] 	pair 0 (L.Knee, L.Knee.Medial): model = 0.109391, experimental = 0.112262
+[2021-02-16 14:31:44.629] [info] 	overall scale factor = 1.02625
+[2021-02-16 14:31:44.629] [info] Measurement 'l_tibia_length'
+[2021-02-16 14:31:44.629] [info] 	pair 0 (L.HF, L.Ankle): model = 0.318649, experimental = 0.38299
+[2021-02-16 14:31:44.630] [info] 	overall scale factor = 1.20192
+[2021-02-16 14:31:44.630] [info] Measurement 'l_tibia_breadth'
+[2021-02-16 14:31:44.630] [info] 	pair 0 (L.Ankle, L.Ankle.Medial): model = 0.0912157, experimental = 0.0814099
+[2021-02-16 14:31:44.630] [info] 	overall scale factor = 0.892499
+[2021-02-16 14:31:44.631] [info] Measurement 'l_foot_length'
+[2021-02-16 14:31:44.631] [info] 	pair 0 (L.Heel.Top, L.MT2): model = 0.216289, experimental = 0.220212
+[2021-02-16 14:31:44.631] [info] 	overall scale factor = 1.01814
+[2021-02-16 14:31:44.631] [info] Measurement 'l_foot_height'
+[2021-02-16 14:31:44.631] [info] 	pair 0 (L.Heel.Top, L.Heel.Bottom): model = 0.0424332, experimental = 0.0483985
+[2021-02-16 14:31:44.632] [info] 	overall scale factor = 1.14058
+[2021-02-16 14:31:44.880] [info] Wrote model file 'RBDS001_scaledModel.osim' from model.
+[2021-02-16 14:31:44.885] [info] Wrote scale file 'RBDS001_scaleSet.xml' for model model.
+[2021-02-16 14:31:44.886] [info] Step 3: Placing markers on model
+[2021-02-16 14:31:44.916] [info] Loaded marker file RBDS001static.trc (48 markers, 150 frames)
+[2021-02-16 14:31:44.916] [info] Averaged frames from time 0.0 to 0.5 in RBDS001static.trc (frames 1 to 76)
+[2021-02-16 14:31:44.917] [info] Deleted 1 unused markers from model model.
+[2021-02-16 14:31:45.024] [info] Frame at (t = 0.0):	 total squared error = 0.015228, marker error: RMS = 0.0233207, max = 0.0370468 (R.MT5)
+[2021-02-16 14:31:45.025] [info] Moved markers in model model to match locations in marker file 'RBDS001static.trc'.
+[2021-02-16 14:31:45.078] [info] Wrote model file 'RBDS001_scaledModelAdjusted.osim' from model model.
+[2021-02-16 14:39:18.015] [info] Processing subject ...
+[2021-02-16 14:39:18.015] [info] Step 1: Loading generic model
+[2021-02-16 14:39:18.073] [info] Loaded model LaiArnold2017_refined_Fukuchi2017-Running from file ..\..\OpensimModel\LaiArnold2017_refined_Fukuchi2017-running.osim
+[2021-02-16 14:39:18.074] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 14:39:18.076] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 14:39:18.076] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 14:39:18.077] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 14:39:18.077] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 14:39:18.078] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 14:39:18.078] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 14:39:18.193] [info] Step 2: Scaling generic model
+[2021-02-16 14:39:18.266] [info] Loaded marker file RBDS001static.trc (48 markers, 150 frames)
+[2021-02-16 14:39:18.267] [info] Measurement 'pelvis_w'
+[2021-02-16 14:39:18.268] [info] 	pair 0 (R.ASIS, L.ASIS): model = 0.226592, experimental = 0.211665
+[2021-02-16 14:39:18.268] [info] 	pair 1 (R.PSIS, L.PSIS): model = 0.0910868, experimental = 0.0768436
+[2021-02-16 14:39:18.268] [info] 	overall scale factor = 0.888878
+[2021-02-16 14:39:18.269] [info] Measurement 'pelvis_d'
+[2021-02-16 14:39:18.269] [info] 	pair 0 (R.ASIS, R.PSIS): model = 0.180152, experimental = 0.18215
+[2021-02-16 14:39:18.269] [info] 	pair 1 (L.ASIS, L.PSIS): model = 0.180152, experimental = 0.188691
+[2021-02-16 14:39:18.270] [info] 	overall scale factor = 1.02925
+[2021-02-16 14:39:18.270] [info] Measurement 'pelvis_h'
+[2021-02-16 14:39:18.270] [info] 	pair 0 (R.ASIS, R.GTR): model = 0.143787, experimental = 0.141161
+[2021-02-16 14:39:18.271] [info] 	pair 1 (L.ASIS, L.GTR): model = 0.143787, experimental = 0.145919
+[2021-02-16 14:39:18.271] [info] 	pair 2 (R.PSIS, R.GTR): model = 0.191764, experimental = 0.193827
+[2021-02-16 14:39:18.271] [info] 	pair 3 (L.PSIS, L.GTR): model = 0.191763, experimental = 0.208402
+[2021-02-16 14:39:18.271] [info] 	pair 4 (R.Iliac.Crest, R.GTR): model = 0.203546, experimental = 0.173724
+[2021-02-16 14:39:18.272] [info] 	pair 5 (L.Iliac.Crest, L.GTR): model = 0.203546, experimental = 0.173833
+[2021-02-16 14:39:18.272] [info] 	overall scale factor = 0.966935
+[2021-02-16 14:39:18.272] [info] Measurement 'r_thigh_length'
+[2021-02-16 14:39:18.272] [info] 	pair 0 (R.GTR, R.Knee): model = 0.363281, experimental = 0.414263
+[2021-02-16 14:39:18.273] [info] 	overall scale factor = 1.14034
+[2021-02-16 14:39:18.273] [info] Measurement 'r_thigh_breadth'
+[2021-02-16 14:39:18.273] [info] 	pair 0 (R.Knee, R.Knee.Medial): model = 0.109391, experimental = 0.116991
+[2021-02-16 14:39:18.273] [info] 	overall scale factor = 1.06948
+[2021-02-16 14:39:18.274] [info] Measurement 'r_tibia_length'
+[2021-02-16 14:39:18.274] [info] 	pair 0 (R.HF, R.Ankle): model = 0.318649, experimental = 0.382141
+[2021-02-16 14:39:18.274] [info] 	overall scale factor = 1.19925
+[2021-02-16 14:39:18.274] [info] Measurement 'r_tibia_breadth'
+[2021-02-16 14:39:18.275] [info] 	pair 0 (R.Ankle, R.Ankle.Medial): model = 0.0912157, experimental = 0.0848813
+[2021-02-16 14:39:18.275] [info] 	overall scale factor = 0.930556
+[2021-02-16 14:39:18.276] [info] Measurement 'r_foot_length'
+[2021-02-16 14:39:18.278] [info] 	pair 0 (R.Heel.Top, R.MT2): model = 0.216289, experimental = 0.216893
+[2021-02-16 14:39:18.278] [info] 	overall scale factor = 1.00279
+[2021-02-16 14:39:18.278] [info] Measurement 'r_foot_height'
+[2021-02-16 14:39:18.278] [info] 	pair 0 (R.Heel.Top, R.Heel.Bottom): model = 0.0424332, experimental = 0.0495037
+[2021-02-16 14:39:18.279] [info] 	overall scale factor = 1.16663
+[2021-02-16 14:39:18.279] [info] Measurement 'l_thigh_length'
+[2021-02-16 14:39:18.279] [info] 	pair 0 (L.GTR, L.Knee): model = 0.363281, experimental = 0.417753
+[2021-02-16 14:39:18.279] [info] 	overall scale factor = 1.14994
+[2021-02-16 14:39:18.279] [info] Measurement 'l_thigh_breadth'
+[2021-02-16 14:39:18.280] [info] 	pair 0 (L.Knee, L.Knee.Medial): model = 0.109391, experimental = 0.112262
+[2021-02-16 14:39:18.280] [info] 	overall scale factor = 1.02625
+[2021-02-16 14:39:18.280] [info] Measurement 'l_tibia_length'
+[2021-02-16 14:39:18.280] [info] 	pair 0 (L.HF, L.Ankle): model = 0.318649, experimental = 0.38299
+[2021-02-16 14:39:18.281] [info] 	overall scale factor = 1.20192
+[2021-02-16 14:39:18.281] [info] Measurement 'l_tibia_breadth'
+[2021-02-16 14:39:18.281] [info] 	pair 0 (L.Ankle, L.Ankle.Medial): model = 0.0912157, experimental = 0.0814099
+[2021-02-16 14:39:18.281] [info] 	overall scale factor = 0.892499
+[2021-02-16 14:39:18.281] [info] Measurement 'l_foot_length'
+[2021-02-16 14:39:18.282] [info] 	pair 0 (L.Heel.Top, L.MT2): model = 0.216289, experimental = 0.220212
+[2021-02-16 14:39:18.282] [info] 	overall scale factor = 1.01814
+[2021-02-16 14:39:18.282] [info] Measurement 'l_foot_height'
+[2021-02-16 14:39:18.282] [info] 	pair 0 (L.Heel.Top, L.Heel.Bottom): model = 0.0424332, experimental = 0.0483985
+[2021-02-16 14:39:18.283] [info] 	overall scale factor = 1.14058
+[2021-02-16 14:39:18.550] [info] Wrote model file 'RBDS001_scaledModel.osim' from model.
+[2021-02-16 14:39:18.556] [info] Wrote scale file 'RBDS001_scaleSet.xml' for model model.
+[2021-02-16 14:39:18.556] [info] Step 3: Placing markers on model
+[2021-02-16 14:39:18.586] [info] Loaded marker file RBDS001static.trc (48 markers, 150 frames)
+[2021-02-16 14:39:18.586] [info] Averaged frames from time 0.0 to 0.5 in RBDS001static.trc (frames 1 to 76)
+[2021-02-16 14:39:18.587] [info] Deleted 1 unused markers from model model.
+[2021-02-16 14:39:18.685] [info] Frame at (t = 0.0):	 total squared error = 0.015228, marker error: RMS = 0.0233207, max = 0.0370468 (R.MT5)
+[2021-02-16 14:39:18.685] [info] Moved markers in model model to match locations in marker file 'RBDS001static.trc'.
+[2021-02-16 14:39:18.737] [info] Wrote model file 'RBDS001_scaledModelAdjusted.osim' from model model.
+[2021-02-16 14:41:06.288] [info] Loaded model model from file RBDS001_scaledModel.osim
+[2021-02-16 14:41:06.290] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 14:41:06.291] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 14:41:06.291] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 14:41:06.292] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 14:41:06.293] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 14:41:06.293] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 14:41:06.293] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 14:41:21.346] [info] Loaded model model from file RBDS001_scaledModelAdjusted.osim
+[2021-02-16 14:41:21.348] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 14:41:21.349] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 14:41:21.349] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 14:41:21.351] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 14:41:21.351] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 14:41:21.351] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 14:41:21.352] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 19:23:42.208] [info] Loaded model model from file RBDS001_scaledModelAdjusted.osim
+[2021-02-16 19:23:42.210] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 19:23:42.210] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 19:23:42.210] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 19:23:42.211] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 19:23:42.212] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 19:23:42.213] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 19:23:42.214] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 19:23:42.318] [cout] [info] 
+               MODEL: model
+         coordinates: 22
+              forces: 80
+           actuators: 80
+             muscles: 80
+            analyses: 0
+              probes: 0
+              bodies: 13
+              joints: 13
+         constraints: 2
+             markers: 49
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2021-02-16 19:23:42.319] [info] Running tool ...
+[2021-02-16 19:23:42.477] [info] Storage: read data file = RBDS001runT25_grf.mot (nr=9000 nc=19)
+[2021-02-16 19:23:42.580] [info] ExternalForce::RightGRF Data source being set to RBDS001runT25_grf
+[2021-02-16 19:23:42.581] [info] ExternalForce::LeftGRF Data source being set to RBDS001runT25_grf
+[2021-02-16 19:23:42.594] [info] Storage: read data file = RBDS001runT25_ik.mot (nr=4500 nc=23)
+[2021-02-16 19:23:42.668] [info] Low-pass filtering coordinates data with a cutoff frequency of 10.0...
+[2021-02-16 19:24:02.384] [info] InverseDynamicsTool: 4500 time frames in 15 second(s).
+[2021-02-16 19:30:51.738] [info] Processing subject ...
+[2021-02-16 19:30:51.738] [info] Step 1: Loading generic model
+[2021-02-16 19:30:51.791] [info] Loaded model LaiArnold2017_refined_Fukuchi2017-Running from file ..\..\OpensimModel\LaiArnold2017_refined_Fukuchi2017-running.osim
+[2021-02-16 19:30:51.793] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 19:30:51.794] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 19:30:51.794] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 19:30:51.795] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 19:30:51.795] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 19:30:51.795] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 19:30:51.795] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 19:30:51.912] [info] Step 2: Scaling generic model
+[2021-02-16 19:30:51.985] [info] Loaded marker file RBDS001static.trc (48 markers, 150 frames)
+[2021-02-16 19:30:51.986] [info] Measurement 'pelvis_w'
+[2021-02-16 19:30:51.986] [info] 	pair 0 (R.ASIS, L.ASIS): model = 0.226592, experimental = 0.211665
+[2021-02-16 19:30:51.987] [info] 	pair 1 (R.PSIS, L.PSIS): model = 0.0910868, experimental = 0.0768436
+[2021-02-16 19:30:51.987] [info] 	overall scale factor = 0.888878
+[2021-02-16 19:30:51.987] [info] Measurement 'pelvis_d'
+[2021-02-16 19:30:51.987] [info] 	pair 0 (R.ASIS, R.PSIS): model = 0.180152, experimental = 0.18215
+[2021-02-16 19:30:51.988] [info] 	pair 1 (L.ASIS, L.PSIS): model = 0.180152, experimental = 0.188691
+[2021-02-16 19:30:51.988] [info] 	overall scale factor = 1.02925
+[2021-02-16 19:30:51.988] [info] Measurement 'pelvis_h'
+[2021-02-16 19:30:51.989] [info] 	pair 0 (R.ASIS, R.GTR): model = 0.143787, experimental = 0.141161
+[2021-02-16 19:30:51.989] [info] 	pair 1 (L.ASIS, L.GTR): model = 0.143787, experimental = 0.145919
+[2021-02-16 19:30:51.989] [info] 	pair 2 (R.PSIS, R.GTR): model = 0.191764, experimental = 0.193827
+[2021-02-16 19:30:51.989] [info] 	pair 3 (L.PSIS, L.GTR): model = 0.191763, experimental = 0.208402
+[2021-02-16 19:30:51.990] [info] 	pair 4 (R.Iliac.Crest, R.GTR): model = 0.203546, experimental = 0.173724
+[2021-02-16 19:30:51.990] [info] 	pair 5 (L.Iliac.Crest, L.GTR): model = 0.203546, experimental = 0.173833
+[2021-02-16 19:30:51.990] [info] 	overall scale factor = 0.966935
+[2021-02-16 19:30:51.991] [info] Measurement 'r_thigh_length'
+[2021-02-16 19:30:51.991] [info] 	pair 0 (R.GTR, R.Knee): model = 0.363281, experimental = 0.414263
+[2021-02-16 19:30:51.991] [info] 	overall scale factor = 1.14034
+[2021-02-16 19:30:51.991] [info] Measurement 'r_thigh_breadth'
+[2021-02-16 19:30:51.992] [info] 	pair 0 (R.Knee, R.Knee.Medial): model = 0.109391, experimental = 0.116991
+[2021-02-16 19:30:51.992] [info] 	overall scale factor = 1.06948
+[2021-02-16 19:30:51.992] [info] Measurement 'r_tibia_length'
+[2021-02-16 19:30:51.992] [info] 	pair 0 (R.HF, R.Ankle): model = 0.318649, experimental = 0.382141
+[2021-02-16 19:30:51.992] [info] 	overall scale factor = 1.19925
+[2021-02-16 19:30:51.993] [info] Measurement 'r_tibia_breadth'
+[2021-02-16 19:30:51.993] [info] 	pair 0 (R.Ankle, R.Ankle.Medial): model = 0.0912157, experimental = 0.0848813
+[2021-02-16 19:30:51.993] [info] 	overall scale factor = 0.930556
+[2021-02-16 19:30:51.993] [info] Measurement 'r_foot_length'
+[2021-02-16 19:30:51.993] [info] 	pair 0 (R.Heel.Top, R.MT2): model = 0.216289, experimental = 0.216893
+[2021-02-16 19:30:51.994] [info] 	overall scale factor = 1.00279
+[2021-02-16 19:30:51.994] [info] Measurement 'r_foot_height'
+[2021-02-16 19:30:51.994] [info] 	pair 0 (R.Heel.Top, R.Heel.Bottom): model = 0.0424332, experimental = 0.0495037
+[2021-02-16 19:30:51.994] [info] 	overall scale factor = 1.16663
+[2021-02-16 19:30:51.995] [info] Measurement 'l_thigh_length'
+[2021-02-16 19:30:51.995] [info] 	pair 0 (L.GTR, L.Knee): model = 0.363281, experimental = 0.417753
+[2021-02-16 19:30:51.996] [info] 	overall scale factor = 1.14994
+[2021-02-16 19:30:51.997] [info] Measurement 'l_thigh_breadth'
+[2021-02-16 19:30:51.997] [info] 	pair 0 (L.Knee, L.Knee.Medial): model = 0.109391, experimental = 0.112262
+[2021-02-16 19:30:51.997] [info] 	overall scale factor = 1.02625
+[2021-02-16 19:30:51.998] [info] Measurement 'l_tibia_length'
+[2021-02-16 19:30:51.998] [info] 	pair 0 (L.HF, L.Ankle): model = 0.318649, experimental = 0.38299
+[2021-02-16 19:30:51.998] [info] 	overall scale factor = 1.20192
+[2021-02-16 19:30:51.998] [info] Measurement 'l_tibia_breadth'
+[2021-02-16 19:30:51.999] [info] 	pair 0 (L.Ankle, L.Ankle.Medial): model = 0.0912157, experimental = 0.0814099
+[2021-02-16 19:30:51.999] [info] 	overall scale factor = 0.892499
+[2021-02-16 19:30:51.999] [info] Measurement 'l_foot_length'
+[2021-02-16 19:30:52.000] [info] 	pair 0 (L.Heel.Top, L.MT2): model = 0.216289, experimental = 0.220212
+[2021-02-16 19:30:52.000] [info] 	overall scale factor = 1.01814
+[2021-02-16 19:30:52.000] [info] Measurement 'l_foot_height'
+[2021-02-16 19:30:52.000] [info] 	pair 0 (L.Heel.Top, L.Heel.Bottom): model = 0.0424332, experimental = 0.0483985
+[2021-02-16 19:30:52.001] [info] 	overall scale factor = 1.14058
+[2021-02-16 19:30:52.234] [info] Wrote model file 'RBDS001_scaledModel.osim' from model.
+[2021-02-16 19:30:52.239] [info] Wrote scale file 'RBDS001_scaleSet.xml' for model model.
+[2021-02-16 19:30:52.239] [info] Step 3: Placing markers on model
+[2021-02-16 19:30:52.268] [info] Loaded marker file RBDS001static.trc (48 markers, 150 frames)
+[2021-02-16 19:30:52.268] [info] Averaged frames from time 0.0 to 0.5 in RBDS001static.trc (frames 1 to 76)
+[2021-02-16 19:30:52.269] [info] Deleted 1 unused markers from model model.
+[2021-02-16 19:30:52.369] [info] Frame at (t = 0.0):	 total squared error = 0.015228, marker error: RMS = 0.0233207, max = 0.0370468 (R.MT5)
+[2021-02-16 19:30:52.369] [info] Moved markers in model model to match locations in marker file 'RBDS001static.trc'.
+[2021-02-16 19:30:52.431] [info] Wrote model file 'RBDS001_scaledModelAdjusted.osim' from model model.
+[2021-02-16 19:30:52.513] [info] Loaded model model from file RBDS001_scaledModel.osim
+[2021-02-16 19:30:52.515] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 19:30:52.515] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 19:30:52.515] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 19:30:52.516] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 19:30:52.517] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 19:30:52.517] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 19:30:52.518] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 19:30:52.640] [info] Loaded model model from file RBDS001_scaledModelAdjusted.osim
+[2021-02-16 19:30:52.641] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 19:30:52.642] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 19:30:52.642] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 19:30:52.643] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 19:30:52.643] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 19:30:52.643] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 19:30:52.644] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 19:43:24.188] [info] Processing subject ...
+[2021-02-16 19:43:24.188] [info] Step 1: Loading generic model
+[2021-02-16 19:43:24.242] [info] Loaded model LaiArnold2017_refined_Fukuchi2017-Running from file ..\..\OpensimModel\LaiArnold2017_refined_Fukuchi2017-running.osim
+[2021-02-16 19:43:24.243] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 19:43:24.244] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 19:43:24.244] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 19:43:24.245] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 19:43:24.246] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 19:43:24.247] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 19:43:24.247] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 19:43:24.366] [info] Step 2: Scaling generic model
+[2021-02-16 19:43:24.440] [info] Loaded marker file RBDS001static.trc (48 markers, 150 frames)
+[2021-02-16 19:43:24.440] [info] Measurement 'pelvis_w'
+[2021-02-16 19:43:24.441] [info] 	pair 0 (R.ASIS, L.ASIS): model = 0.226592, experimental = 0.211665
+[2021-02-16 19:43:24.442] [info] 	pair 1 (R.PSIS, L.PSIS): model = 0.0910868, experimental = 0.0768436
+[2021-02-16 19:43:24.442] [info] 	overall scale factor = 0.888878
+[2021-02-16 19:43:24.442] [info] Measurement 'pelvis_d'
+[2021-02-16 19:43:24.442] [info] 	pair 0 (R.ASIS, R.PSIS): model = 0.180152, experimental = 0.18215
+[2021-02-16 19:43:24.443] [info] 	pair 1 (L.ASIS, L.PSIS): model = 0.180152, experimental = 0.188691
+[2021-02-16 19:43:24.443] [info] 	overall scale factor = 1.02925
+[2021-02-16 19:43:24.443] [info] Measurement 'pelvis_h'
+[2021-02-16 19:43:24.444] [info] 	pair 0 (R.ASIS, R.GTR): model = 0.143787, experimental = 0.141161
+[2021-02-16 19:43:24.444] [info] 	pair 1 (L.ASIS, L.GTR): model = 0.143787, experimental = 0.145919
+[2021-02-16 19:43:24.444] [info] 	pair 2 (R.PSIS, R.GTR): model = 0.191764, experimental = 0.193827
+[2021-02-16 19:43:24.444] [info] 	pair 3 (L.PSIS, L.GTR): model = 0.191763, experimental = 0.208402
+[2021-02-16 19:43:24.445] [info] 	pair 4 (R.Iliac.Crest, R.GTR): model = 0.203546, experimental = 0.173724
+[2021-02-16 19:43:24.445] [info] 	pair 5 (L.Iliac.Crest, L.GTR): model = 0.203546, experimental = 0.173833
+[2021-02-16 19:43:24.445] [info] 	overall scale factor = 0.966935
+[2021-02-16 19:43:24.446] [info] Measurement 'r_thigh_length'
+[2021-02-16 19:43:24.446] [info] 	pair 0 (R.GTR, R.Knee): model = 0.363281, experimental = 0.414263
+[2021-02-16 19:43:24.446] [info] 	overall scale factor = 1.14034
+[2021-02-16 19:43:24.446] [info] Measurement 'r_thigh_breadth'
+[2021-02-16 19:43:24.447] [info] 	pair 0 (R.Knee, R.Knee.Medial): model = 0.109391, experimental = 0.116991
+[2021-02-16 19:43:24.447] [info] 	overall scale factor = 1.06948
+[2021-02-16 19:43:24.447] [info] Measurement 'r_tibia_length'
+[2021-02-16 19:43:24.448] [info] 	pair 0 (R.HF, R.Ankle): model = 0.318649, experimental = 0.382141
+[2021-02-16 19:43:24.448] [info] 	overall scale factor = 1.19925
+[2021-02-16 19:43:24.448] [info] Measurement 'r_tibia_breadth'
+[2021-02-16 19:43:24.448] [info] 	pair 0 (R.Ankle, R.Ankle.Medial): model = 0.0912157, experimental = 0.0848813
+[2021-02-16 19:43:24.448] [info] 	overall scale factor = 0.930556
+[2021-02-16 19:43:24.449] [info] Measurement 'r_foot_length'
+[2021-02-16 19:43:24.449] [info] 	pair 0 (R.Heel.Top, R.MT2): model = 0.216289, experimental = 0.216893
+[2021-02-16 19:43:24.449] [info] 	overall scale factor = 1.00279
+[2021-02-16 19:43:24.451] [info] Measurement 'r_foot_height'
+[2021-02-16 19:43:24.452] [info] 	pair 0 (R.Heel.Top, R.Heel.Bottom): model = 0.0424332, experimental = 0.0495037
+[2021-02-16 19:43:24.452] [info] 	overall scale factor = 1.16663
+[2021-02-16 19:43:24.452] [info] Measurement 'l_thigh_length'
+[2021-02-16 19:43:24.453] [info] 	pair 0 (L.GTR, L.Knee): model = 0.363281, experimental = 0.417753
+[2021-02-16 19:43:24.453] [info] 	overall scale factor = 1.14994
+[2021-02-16 19:43:24.453] [info] Measurement 'l_thigh_breadth'
+[2021-02-16 19:43:24.453] [info] 	pair 0 (L.Knee, L.Knee.Medial): model = 0.109391, experimental = 0.112262
+[2021-02-16 19:43:24.454] [info] 	overall scale factor = 1.02625
+[2021-02-16 19:43:24.454] [info] Measurement 'l_tibia_length'
+[2021-02-16 19:43:24.454] [info] 	pair 0 (L.HF, L.Ankle): model = 0.318649, experimental = 0.38299
+[2021-02-16 19:43:24.454] [info] 	overall scale factor = 1.20192
+[2021-02-16 19:43:24.454] [info] Measurement 'l_tibia_breadth'
+[2021-02-16 19:43:24.455] [info] 	pair 0 (L.Ankle, L.Ankle.Medial): model = 0.0912157, experimental = 0.0814099
+[2021-02-16 19:43:24.455] [info] 	overall scale factor = 0.892499
+[2021-02-16 19:43:24.455] [info] Measurement 'l_foot_length'
+[2021-02-16 19:43:24.455] [info] 	pair 0 (L.Heel.Top, L.MT2): model = 0.216289, experimental = 0.220212
+[2021-02-16 19:43:24.456] [info] 	overall scale factor = 1.01814
+[2021-02-16 19:43:24.456] [info] Measurement 'l_foot_height'
+[2021-02-16 19:43:24.456] [info] 	pair 0 (L.Heel.Top, L.Heel.Bottom): model = 0.0424332, experimental = 0.0483985
+[2021-02-16 19:43:24.456] [info] 	overall scale factor = 1.14058
+[2021-02-16 19:43:24.686] [info] Wrote model file 'RBDS001_scaledModel.osim' from model.
+[2021-02-16 19:43:24.690] [info] Wrote scale file 'RBDS001_scaleSet.xml' for model model.
+[2021-02-16 19:43:24.691] [info] Step 3: Placing markers on model
+[2021-02-16 19:43:24.718] [info] Loaded marker file RBDS001static.trc (48 markers, 150 frames)
+[2021-02-16 19:43:24.719] [info] Averaged frames from time 0.0 to 0.5 in RBDS001static.trc (frames 1 to 76)
+[2021-02-16 19:43:24.720] [info] Deleted 1 unused markers from model model.
+[2021-02-16 19:43:24.832] [info] Frame at (t = 0.0):	 total squared error = 0.015228, marker error: RMS = 0.0233207, max = 0.0370468 (R.MT5)
+[2021-02-16 19:43:24.832] [info] Moved markers in model model to match locations in marker file 'RBDS001static.trc'.
+[2021-02-16 19:43:24.885] [info] Wrote model file 'RBDS001_scaledModelAdjusted.osim' from model model.
+[2021-02-16 19:43:24.972] [info] Loaded model model from file RBDS001_scaledModel.osim
+[2021-02-16 19:43:24.974] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 19:43:24.974] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 19:43:24.975] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 19:43:24.976] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 19:43:24.976] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 19:43:24.977] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 19:43:24.978] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 19:43:25.100] [info] Loaded model model from file RBDS001_scaledModelAdjusted.osim
+[2021-02-16 19:43:25.102] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 19:43:25.102] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 19:43:25.102] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 19:43:25.103] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 19:43:25.103] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 19:43:25.104] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 19:43:25.104] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 19:49:24.036] [info] Processing subject ...
+[2021-02-16 19:49:24.037] [info] Step 1: Loading generic model
+[2021-02-16 19:49:24.092] [info] Loaded model LaiArnold2017_refined_Fukuchi2017-Running from file ..\..\OpensimModel\LaiArnold2017_refined_Fukuchi2017-running.osim
+[2021-02-16 19:49:24.175] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 19:49:24.175] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 19:49:24.178] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 19:49:24.231] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 19:49:24.231] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 19:49:24.232] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 19:49:24.232] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 19:49:24.396] [info] Step 2: Scaling generic model
+[2021-02-16 19:49:24.470] [info] Loaded marker file RBDS001static.trc (48 markers, 150 frames)
+[2021-02-16 19:49:24.470] [info] Measurement 'pelvis_w'
+[2021-02-16 19:49:24.471] [info] 	pair 0 (R.ASIS, L.ASIS): model = 0.226592, experimental = 0.211665
+[2021-02-16 19:49:24.471] [info] 	pair 1 (R.PSIS, L.PSIS): model = 0.0910868, experimental = 0.0768436
+[2021-02-16 19:49:24.472] [info] 	overall scale factor = 0.888878
+[2021-02-16 19:49:24.472] [info] Measurement 'pelvis_d'
+[2021-02-16 19:49:24.472] [info] 	pair 0 (R.ASIS, R.PSIS): model = 0.180152, experimental = 0.18215
+[2021-02-16 19:49:24.472] [info] 	pair 1 (L.ASIS, L.PSIS): model = 0.180152, experimental = 0.188691
+[2021-02-16 19:49:24.473] [info] 	overall scale factor = 1.02925
+[2021-02-16 19:49:24.473] [info] Measurement 'pelvis_h'
+[2021-02-16 19:49:24.473] [info] 	pair 0 (R.ASIS, R.GTR): model = 0.143787, experimental = 0.141161
+[2021-02-16 19:49:24.474] [info] 	pair 1 (L.ASIS, L.GTR): model = 0.143787, experimental = 0.145919
+[2021-02-16 19:49:24.474] [info] 	pair 2 (R.PSIS, R.GTR): model = 0.191764, experimental = 0.193827
+[2021-02-16 19:49:24.474] [info] 	pair 3 (L.PSIS, L.GTR): model = 0.191763, experimental = 0.208402
+[2021-02-16 19:49:24.474] [info] 	pair 4 (R.Iliac.Crest, R.GTR): model = 0.203546, experimental = 0.173724
+[2021-02-16 19:49:24.474] [info] 	pair 5 (L.Iliac.Crest, L.GTR): model = 0.203546, experimental = 0.173833
+[2021-02-16 19:49:24.475] [info] 	overall scale factor = 0.966935
+[2021-02-16 19:49:24.475] [info] Measurement 'r_thigh_length'
+[2021-02-16 19:49:24.475] [info] 	pair 0 (R.GTR, R.Knee): model = 0.363281, experimental = 0.414263
+[2021-02-16 19:49:24.475] [info] 	overall scale factor = 1.14034
+[2021-02-16 19:49:24.476] [info] Measurement 'r_thigh_breadth'
+[2021-02-16 19:49:24.476] [info] 	pair 0 (R.Knee, R.Knee.Medial): model = 0.109391, experimental = 0.116991
+[2021-02-16 19:49:24.476] [info] 	overall scale factor = 1.06948
+[2021-02-16 19:49:24.476] [info] Measurement 'r_tibia_length'
+[2021-02-16 19:49:24.477] [info] 	pair 0 (R.HF, R.Ankle): model = 0.318649, experimental = 0.382141
+[2021-02-16 19:49:24.477] [info] 	overall scale factor = 1.19925
+[2021-02-16 19:49:24.477] [info] Measurement 'r_tibia_breadth'
+[2021-02-16 19:49:24.477] [info] 	pair 0 (R.Ankle, R.Ankle.Medial): model = 0.0912157, experimental = 0.0848813
+[2021-02-16 19:49:24.478] [info] 	overall scale factor = 0.930556
+[2021-02-16 19:49:24.478] [info] Measurement 'r_foot_length'
+[2021-02-16 19:49:24.478] [info] 	pair 0 (R.Heel.Top, R.MT2): model = 0.216289, experimental = 0.216893
+[2021-02-16 19:49:24.478] [info] 	overall scale factor = 1.00279
+[2021-02-16 19:49:24.479] [info] Measurement 'r_foot_height'
+[2021-02-16 19:49:24.479] [info] 	pair 0 (R.Heel.Top, R.Heel.Bottom): model = 0.0424332, experimental = 0.0495037
+[2021-02-16 19:49:24.479] [info] 	overall scale factor = 1.16663
+[2021-02-16 19:49:24.479] [info] Measurement 'l_thigh_length'
+[2021-02-16 19:49:24.481] [info] 	pair 0 (L.GTR, L.Knee): model = 0.363281, experimental = 0.417753
+[2021-02-16 19:49:24.482] [info] 	overall scale factor = 1.14994
+[2021-02-16 19:49:24.482] [info] Measurement 'l_thigh_breadth'
+[2021-02-16 19:49:24.482] [info] 	pair 0 (L.Knee, L.Knee.Medial): model = 0.109391, experimental = 0.112262
+[2021-02-16 19:49:24.482] [info] 	overall scale factor = 1.02625
+[2021-02-16 19:49:24.483] [info] Measurement 'l_tibia_length'
+[2021-02-16 19:49:24.483] [info] 	pair 0 (L.HF, L.Ankle): model = 0.318649, experimental = 0.38299
+[2021-02-16 19:49:24.483] [info] 	overall scale factor = 1.20192
+[2021-02-16 19:49:24.483] [info] Measurement 'l_tibia_breadth'
+[2021-02-16 19:49:24.484] [info] 	pair 0 (L.Ankle, L.Ankle.Medial): model = 0.0912157, experimental = 0.0814099
+[2021-02-16 19:49:24.484] [info] 	overall scale factor = 0.892499
+[2021-02-16 19:49:24.484] [info] Measurement 'l_foot_length'
+[2021-02-16 19:49:24.484] [info] 	pair 0 (L.Heel.Top, L.MT2): model = 0.216289, experimental = 0.220212
+[2021-02-16 19:49:24.485] [info] 	overall scale factor = 1.01814
+[2021-02-16 19:49:24.485] [info] Measurement 'l_foot_height'
+[2021-02-16 19:49:24.485] [info] 	pair 0 (L.Heel.Top, L.Heel.Bottom): model = 0.0424332, experimental = 0.0483985
+[2021-02-16 19:49:24.485] [info] 	overall scale factor = 1.14058
+[2021-02-16 19:49:24.726] [info] Wrote model file 'RBDS001_scaledModel.osim' from model.
+[2021-02-16 19:49:24.730] [info] Wrote scale file 'RBDS001_scaleSet.xml' for model model.
+[2021-02-16 19:49:24.731] [info] Step 3: Placing markers on model
+[2021-02-16 19:49:24.762] [info] Loaded marker file RBDS001static.trc (48 markers, 150 frames)
+[2021-02-16 19:49:24.762] [info] Averaged frames from time 0.0 to 0.5 in RBDS001static.trc (frames 1 to 76)
+[2021-02-16 19:49:24.763] [info] Deleted 1 unused markers from model model.
+[2021-02-16 19:49:24.869] [info] Frame at (t = 0.0):	 total squared error = 0.015228, marker error: RMS = 0.0233207, max = 0.0370468 (R.MT5)
+[2021-02-16 19:49:24.870] [info] Moved markers in model model to match locations in marker file 'RBDS001static.trc'.
+[2021-02-16 19:49:24.921] [info] Wrote model file 'RBDS001_scaledModelAdjusted.osim' from model model.
+[2021-02-16 19:49:25.010] [info] Loaded model model from file RBDS001_scaledModel.osim
+[2021-02-16 19:49:25.012] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 19:49:25.012] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 19:49:25.013] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 19:49:25.014] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 19:49:25.014] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 19:49:25.015] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 19:49:25.015] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 19:49:25.147] [info] Loaded model model from file RBDS001_scaledModelAdjusted.osim
+[2021-02-16 19:49:25.148] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 19:49:25.149] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 19:49:25.149] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 19:49:25.150] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 19:49:25.150] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 19:49:25.150] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 19:49:25.151] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 19:55:00.049] [info] Loaded model model from file RBDS001_scaledModelAdjusted.osim
+[2021-02-16 19:55:00.050] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 19:55:00.051] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 19:55:00.051] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 19:55:00.052] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 19:55:00.052] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 19:55:00.053] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 19:55:00.053] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 19:55:00.170] [cout] [info] 
+               MODEL: model
+         coordinates: 22
+              forces: 80
+           actuators: 80
+             muscles: 80
+            analyses: 0
+              probes: 0
+              bodies: 13
+              joints: 13
+         constraints: 2
+             markers: 49
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2021-02-16 19:55:00.172] [info] Running tool ...
+[2021-02-16 19:55:00.362] [info] Storage: read data file = RBDS001runT25_grf.mot (nr=9000 nc=19)
+[2021-02-16 19:55:00.466] [info] ExternalForce::RightGRF Data source being set to RBDS001runT25_grf
+[2021-02-16 19:55:00.467] [info] ExternalForce::LeftGRF Data source being set to RBDS001runT25_grf
+[2021-02-16 19:55:00.479] [info] Storage: read data file = RBDS001runT25_ik.mot (nr=4500 nc=23)
+[2021-02-16 19:55:00.558] [info] Low-pass filtering coordinates data with a cutoff frequency of 10.0...
+[2021-02-16 19:55:22.267] [info] InverseDynamicsTool: 4500 time frames in 17 second(s).
+[2021-02-16 20:06:14.083] [info] Loaded model model from file RBDS001_scaledModelAdjusted.osim
+[2021-02-16 20:06:14.085] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 20:06:14.085] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 20:06:14.085] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 20:06:14.086] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 20:06:14.087] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 20:06:14.087] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 20:06:14.087] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 20:06:14.194] [cout] [info] 
+               MODEL: model
+         coordinates: 22
+              forces: 80
+           actuators: 80
+             muscles: 80
+            analyses: 0
+              probes: 0
+              bodies: 13
+              joints: 13
+         constraints: 2
+             markers: 49
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2021-02-16 20:06:14.194] [info] Running tool ...
+[2021-02-16 20:06:14.359] [info] Storage: read data file = RBDS001runT35_grf.mot (nr=9000 nc=19)
+[2021-02-16 20:06:14.398] [info] ExternalForce::RightGRF Data source being set to RBDS001runT35_grf
+[2021-02-16 20:06:14.398] [info] ExternalForce::LeftGRF Data source being set to RBDS001runT35_grf
+[2021-02-16 20:06:14.407] [info] Storage: read data file = RBDS001runT35_ik.mot (nr=4500 nc=23)
+[2021-02-16 20:06:14.483] [info] Low-pass filtering coordinates data with a cutoff frequency of 10.0...
+[2021-02-16 20:06:29.081] [info] InverseDynamicsTool: 4500 time frames in 11 second(s).
+[2021-02-16 20:11:01.309] [info] Processing subject ...
+[2021-02-16 20:11:01.309] [info] Step 1: Loading generic model
+[2021-02-16 20:11:01.362] [info] Loaded model LaiArnold2017_refined_Fukuchi2017-Running from file ..\..\OpensimModel\LaiArnold2017_refined_Fukuchi2017-running.osim
+[2021-02-16 20:11:01.364] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 20:11:01.364] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 20:11:01.364] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 20:11:01.365] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 20:11:01.366] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 20:11:01.366] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 20:11:01.367] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 20:11:01.484] [info] Step 2: Scaling generic model
+[2021-02-16 20:11:01.557] [info] Loaded marker file RBDS001static.trc (48 markers, 150 frames)
+[2021-02-16 20:11:01.557] [info] Measurement 'pelvis_w'
+[2021-02-16 20:11:01.558] [info] 	pair 0 (R.ASIS, L.ASIS): model = 0.226592, experimental = 0.211665
+[2021-02-16 20:11:01.558] [info] 	pair 1 (R.PSIS, L.PSIS): model = 0.0910868, experimental = 0.0768436
+[2021-02-16 20:11:01.558] [info] 	overall scale factor = 0.888878
+[2021-02-16 20:11:01.559] [info] Measurement 'pelvis_d'
+[2021-02-16 20:11:01.559] [info] 	pair 0 (R.ASIS, R.PSIS): model = 0.180152, experimental = 0.18215
+[2021-02-16 20:11:01.559] [info] 	pair 1 (L.ASIS, L.PSIS): model = 0.180152, experimental = 0.188691
+[2021-02-16 20:11:01.560] [info] 	overall scale factor = 1.02925
+[2021-02-16 20:11:01.560] [info] Measurement 'pelvis_h'
+[2021-02-16 20:11:01.560] [info] 	pair 0 (R.ASIS, R.GTR): model = 0.143787, experimental = 0.141161
+[2021-02-16 20:11:01.561] [info] 	pair 1 (L.ASIS, L.GTR): model = 0.143787, experimental = 0.145919
+[2021-02-16 20:11:01.561] [info] 	pair 2 (R.PSIS, R.GTR): model = 0.191764, experimental = 0.193827
+[2021-02-16 20:11:01.561] [info] 	pair 3 (L.PSIS, L.GTR): model = 0.191763, experimental = 0.208402
+[2021-02-16 20:11:01.561] [info] 	pair 4 (R.Iliac.Crest, R.GTR): model = 0.203546, experimental = 0.173724
+[2021-02-16 20:11:01.562] [info] 	pair 5 (L.Iliac.Crest, L.GTR): model = 0.203546, experimental = 0.173833
+[2021-02-16 20:11:01.562] [info] 	overall scale factor = 0.966935
+[2021-02-16 20:11:01.562] [info] Measurement 'r_thigh_length'
+[2021-02-16 20:11:01.563] [info] 	pair 0 (R.GTR, R.Knee): model = 0.363281, experimental = 0.414263
+[2021-02-16 20:11:01.563] [info] 	overall scale factor = 1.14034
+[2021-02-16 20:11:01.563] [info] Measurement 'r_thigh_breadth'
+[2021-02-16 20:11:01.564] [info] 	pair 0 (R.Knee, R.Knee.Medial): model = 0.109391, experimental = 0.116991
+[2021-02-16 20:11:01.565] [info] 	overall scale factor = 1.06948
+[2021-02-16 20:11:01.565] [info] Measurement 'r_tibia_length'
+[2021-02-16 20:11:01.565] [info] 	pair 0 (R.HF, R.Ankle): model = 0.318649, experimental = 0.382141
+[2021-02-16 20:11:01.565] [info] 	overall scale factor = 1.19925
+[2021-02-16 20:11:01.566] [info] Measurement 'r_tibia_breadth'
+[2021-02-16 20:11:01.566] [info] 	pair 0 (R.Ankle, R.Ankle.Medial): model = 0.0912157, experimental = 0.0848813
+[2021-02-16 20:11:01.566] [info] 	overall scale factor = 0.930556
+[2021-02-16 20:11:01.566] [info] Measurement 'r_foot_length'
+[2021-02-16 20:11:01.568] [info] 	pair 0 (R.Heel.Top, R.MT2): model = 0.216289, experimental = 0.216893
+[2021-02-16 20:11:01.568] [info] 	overall scale factor = 1.00279
+[2021-02-16 20:11:01.569] [info] Measurement 'r_foot_height'
+[2021-02-16 20:11:01.569] [info] 	pair 0 (R.Heel.Top, R.Heel.Bottom): model = 0.0424332, experimental = 0.0495037
+[2021-02-16 20:11:01.569] [info] 	overall scale factor = 1.16663
+[2021-02-16 20:11:01.570] [info] Measurement 'l_thigh_length'
+[2021-02-16 20:11:01.570] [info] 	pair 0 (L.GTR, L.Knee): model = 0.363281, experimental = 0.417753
+[2021-02-16 20:11:01.570] [info] 	overall scale factor = 1.14994
+[2021-02-16 20:11:01.570] [info] Measurement 'l_thigh_breadth'
+[2021-02-16 20:11:01.571] [info] 	pair 0 (L.Knee, L.Knee.Medial): model = 0.109391, experimental = 0.112262
+[2021-02-16 20:11:01.571] [info] 	overall scale factor = 1.02625
+[2021-02-16 20:11:01.571] [info] Measurement 'l_tibia_length'
+[2021-02-16 20:11:01.571] [info] 	pair 0 (L.HF, L.Ankle): model = 0.318649, experimental = 0.38299
+[2021-02-16 20:11:01.572] [info] 	overall scale factor = 1.20192
+[2021-02-16 20:11:01.572] [info] Measurement 'l_tibia_breadth'
+[2021-02-16 20:11:01.572] [info] 	pair 0 (L.Ankle, L.Ankle.Medial): model = 0.0912157, experimental = 0.0814099
+[2021-02-16 20:11:01.573] [info] 	overall scale factor = 0.892499
+[2021-02-16 20:11:01.573] [info] Measurement 'l_foot_length'
+[2021-02-16 20:11:01.573] [info] 	pair 0 (L.Heel.Top, L.MT2): model = 0.216289, experimental = 0.220212
+[2021-02-16 20:11:01.573] [info] 	overall scale factor = 1.01814
+[2021-02-16 20:11:01.573] [info] Measurement 'l_foot_height'
+[2021-02-16 20:11:01.574] [info] 	pair 0 (L.Heel.Top, L.Heel.Bottom): model = 0.0424332, experimental = 0.0483985
+[2021-02-16 20:11:01.574] [info] 	overall scale factor = 1.14058
+[2021-02-16 20:11:01.813] [info] Wrote model file 'RBDS001_scaledModel.osim' from model.
+[2021-02-16 20:11:01.818] [info] Wrote scale file 'RBDS001_scaleSet.xml' for model model.
+[2021-02-16 20:11:01.818] [info] Step 3: Placing markers on model
+[2021-02-16 20:11:01.846] [info] Loaded marker file RBDS001static.trc (48 markers, 150 frames)
+[2021-02-16 20:11:01.847] [info] Averaged frames from time 0.0 to 0.5 in RBDS001static.trc (frames 1 to 76)
+[2021-02-16 20:11:01.848] [info] Deleted 1 unused markers from model model.
+[2021-02-16 20:11:01.947] [info] Frame at (t = 0.0):	 total squared error = 0.015228, marker error: RMS = 0.0233207, max = 0.0370468 (R.MT5)
+[2021-02-16 20:11:01.947] [info] Moved markers in model model to match locations in marker file 'RBDS001static.trc'.
+[2021-02-16 20:11:01.998] [info] Wrote model file 'RBDS001_scaledModelAdjusted.osim' from model model.
+[2021-02-16 20:11:02.082] [info] Loaded model model from file RBDS001_scaledModel.osim
+[2021-02-16 20:11:02.084] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 20:11:02.084] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 20:11:02.084] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 20:11:02.085] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 20:11:02.086] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 20:11:02.086] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 20:11:02.086] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 20:11:02.212] [info] Loaded model model from file RBDS001_scaledModelAdjusted.osim
+[2021-02-16 20:11:02.214] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 20:11:02.214] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 20:11:02.215] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 20:11:02.216] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 20:11:02.216] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 20:11:02.216] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 20:11:02.217] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 20:11:28.956] [info] Loaded model model from file RBDS001_scaledModelAdjusted.osim
+[2021-02-16 20:11:28.958] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 20:11:28.958] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 20:11:28.959] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 20:11:28.960] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 20:11:28.960] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 20:11:28.960] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 20:11:28.961] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 20:11:29.067] [cout] [info] 
+               MODEL: model
+         coordinates: 22
+              forces: 80
+           actuators: 80
+             muscles: 80
+            analyses: 0
+              probes: 0
+              bodies: 13
+              joints: 13
+         constraints: 2
+             markers: 49
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2021-02-16 20:11:29.068] [info] Running tool ...
+[2021-02-16 20:11:29.229] [info] Storage: read data file = RBDS001runT25_grf.mot (nr=9000 nc=19)
+[2021-02-16 20:11:29.330] [info] ExternalForce::RightGRF Data source being set to RBDS001runT25_grf
+[2021-02-16 20:11:29.331] [info] ExternalForce::LeftGRF Data source being set to RBDS001runT25_grf
+[2021-02-16 20:11:29.345] [info] Storage: read data file = RBDS001runT25_ik.mot (nr=4500 nc=23)
+[2021-02-16 20:11:29.431] [info] Low-pass filtering coordinates data with a cutoff frequency of 10.0...
+[2021-02-16 20:11:44.521] [info] InverseDynamicsTool: 4500 time frames in 11 second(s).
+[2021-02-16 20:16:56.580] [info] Processing subject ...
+[2021-02-16 20:16:56.581] [info] Step 1: Loading generic model
+[2021-02-16 20:16:56.634] [info] Loaded model LaiArnold2017_refined_Fukuchi2017-Running from file ..\..\OpensimModel\LaiArnold2017_refined_Fukuchi2017-running.osim
+[2021-02-16 20:16:56.636] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 20:16:56.636] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 20:16:56.637] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 20:16:56.638] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 20:16:56.638] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 20:16:56.638] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 20:16:56.638] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 20:16:56.758] [info] Step 2: Scaling generic model
+[2021-02-16 20:16:56.835] [info] Loaded marker file RBDS001static.trc (48 markers, 150 frames)
+[2021-02-16 20:16:56.836] [info] Measurement 'pelvis_w'
+[2021-02-16 20:16:56.837] [info] 	pair 0 (R.ASIS, L.ASIS): model = 0.226592, experimental = 0.211665
+[2021-02-16 20:16:56.837] [info] 	pair 1 (R.PSIS, L.PSIS): model = 0.0910868, experimental = 0.0768436
+[2021-02-16 20:16:56.837] [info] 	overall scale factor = 0.888878
+[2021-02-16 20:16:56.838] [info] Measurement 'pelvis_d'
+[2021-02-16 20:16:56.838] [info] 	pair 0 (R.ASIS, R.PSIS): model = 0.180152, experimental = 0.18215
+[2021-02-16 20:16:56.838] [info] 	pair 1 (L.ASIS, L.PSIS): model = 0.180152, experimental = 0.188691
+[2021-02-16 20:16:56.838] [info] 	overall scale factor = 1.02925
+[2021-02-16 20:16:56.839] [info] Measurement 'pelvis_h'
+[2021-02-16 20:16:56.839] [info] 	pair 0 (R.ASIS, R.GTR): model = 0.143787, experimental = 0.141161
+[2021-02-16 20:16:56.839] [info] 	pair 1 (L.ASIS, L.GTR): model = 0.143787, experimental = 0.145919
+[2021-02-16 20:16:56.840] [info] 	pair 2 (R.PSIS, R.GTR): model = 0.191764, experimental = 0.193827
+[2021-02-16 20:16:56.840] [info] 	pair 3 (L.PSIS, L.GTR): model = 0.191763, experimental = 0.208402
+[2021-02-16 20:16:56.840] [info] 	pair 4 (R.Iliac.Crest, R.GTR): model = 0.203546, experimental = 0.173724
+[2021-02-16 20:16:56.840] [info] 	pair 5 (L.Iliac.Crest, L.GTR): model = 0.203546, experimental = 0.173833
+[2021-02-16 20:16:56.841] [info] 	overall scale factor = 0.966935
+[2021-02-16 20:16:56.842] [info] Measurement 'r_thigh_length'
+[2021-02-16 20:16:56.842] [info] 	pair 0 (R.GTR, R.Knee): model = 0.363281, experimental = 0.414263
+[2021-02-16 20:16:56.843] [info] 	overall scale factor = 1.14034
+[2021-02-16 20:16:56.843] [info] Measurement 'r_thigh_breadth'
+[2021-02-16 20:16:56.843] [info] 	pair 0 (R.Knee, R.Knee.Medial): model = 0.109391, experimental = 0.116991
+[2021-02-16 20:16:56.843] [info] 	overall scale factor = 1.06948
+[2021-02-16 20:16:56.843] [info] Measurement 'r_tibia_length'
+[2021-02-16 20:16:56.844] [info] 	pair 0 (R.HF, R.Ankle): model = 0.318649, experimental = 0.382141
+[2021-02-16 20:16:56.844] [info] 	overall scale factor = 1.19925
+[2021-02-16 20:16:56.844] [info] Measurement 'r_tibia_breadth'
+[2021-02-16 20:16:56.844] [info] 	pair 0 (R.Ankle, R.Ankle.Medial): model = 0.0912157, experimental = 0.0848813
+[2021-02-16 20:16:56.845] [info] 	overall scale factor = 0.930556
+[2021-02-16 20:16:56.845] [info] Measurement 'r_foot_length'
+[2021-02-16 20:16:56.845] [info] 	pair 0 (R.Heel.Top, R.MT2): model = 0.216289, experimental = 0.216893
+[2021-02-16 20:16:56.845] [info] 	overall scale factor = 1.00279
+[2021-02-16 20:16:56.847] [info] Measurement 'r_foot_height'
+[2021-02-16 20:16:56.847] [info] 	pair 0 (R.Heel.Top, R.Heel.Bottom): model = 0.0424332, experimental = 0.0495037
+[2021-02-16 20:16:56.848] [info] 	overall scale factor = 1.16663
+[2021-02-16 20:16:56.848] [info] Measurement 'l_thigh_length'
+[2021-02-16 20:16:56.848] [info] 	pair 0 (L.GTR, L.Knee): model = 0.363281, experimental = 0.417753
+[2021-02-16 20:16:56.848] [info] 	overall scale factor = 1.14994
+[2021-02-16 20:16:56.848] [info] Measurement 'l_thigh_breadth'
+[2021-02-16 20:16:56.849] [info] 	pair 0 (L.Knee, L.Knee.Medial): model = 0.109391, experimental = 0.112262
+[2021-02-16 20:16:56.849] [info] 	overall scale factor = 1.02625
+[2021-02-16 20:16:56.849] [info] Measurement 'l_tibia_length'
+[2021-02-16 20:16:56.849] [info] 	pair 0 (L.HF, L.Ankle): model = 0.318649, experimental = 0.38299
+[2021-02-16 20:16:56.850] [info] 	overall scale factor = 1.20192
+[2021-02-16 20:16:56.850] [info] Measurement 'l_tibia_breadth'
+[2021-02-16 20:16:56.851] [info] 	pair 0 (L.Ankle, L.Ankle.Medial): model = 0.0912157, experimental = 0.0814099
+[2021-02-16 20:16:56.851] [info] 	overall scale factor = 0.892499
+[2021-02-16 20:16:56.851] [info] Measurement 'l_foot_length'
+[2021-02-16 20:16:56.852] [info] 	pair 0 (L.Heel.Top, L.MT2): model = 0.216289, experimental = 0.220212
+[2021-02-16 20:16:56.852] [info] 	overall scale factor = 1.01814
+[2021-02-16 20:16:56.853] [info] Measurement 'l_foot_height'
+[2021-02-16 20:16:56.853] [info] 	pair 0 (L.Heel.Top, L.Heel.Bottom): model = 0.0424332, experimental = 0.0483985
+[2021-02-16 20:16:56.853] [info] 	overall scale factor = 1.14058
+[2021-02-16 20:16:57.093] [info] Wrote model file 'RBDS001_scaledModel.osim' from model.
+[2021-02-16 20:16:57.098] [info] Wrote scale file 'RBDS001_scaleSet.xml' for model model.
+[2021-02-16 20:16:57.099] [info] Step 3: Placing markers on model
+[2021-02-16 20:16:57.138] [info] Loaded marker file RBDS001static.trc (48 markers, 150 frames)
+[2021-02-16 20:16:57.139] [info] Averaged frames from time 0.0 to 0.5 in RBDS001static.trc (frames 1 to 76)
+[2021-02-16 20:16:57.139] [info] Deleted 1 unused markers from model model.
+[2021-02-16 20:16:57.239] [info] Frame at (t = 0.0):	 total squared error = 0.015228, marker error: RMS = 0.0233207, max = 0.0370468 (R.MT5)
+[2021-02-16 20:16:57.240] [info] Moved markers in model model to match locations in marker file 'RBDS001static.trc'.
+[2021-02-16 20:16:57.292] [info] Wrote model file 'RBDS001_scaledModelAdjusted.osim' from model model.
+[2021-02-16 20:16:57.378] [info] Loaded model model from file RBDS001_scaledModel.osim
+[2021-02-16 20:16:57.380] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 20:16:57.381] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 20:16:57.381] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 20:16:57.382] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 20:16:57.383] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 20:16:57.383] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 20:16:57.383] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 20:16:57.510] [info] Loaded model model from file RBDS001_scaledModelAdjusted.osim
+[2021-02-16 20:16:57.512] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 20:16:57.512] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 20:16:57.512] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 20:16:57.513] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 20:16:57.513] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 20:16:57.514] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 20:16:57.514] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 20:18:54.424] [error] IO.OpenFile(const string&,const string&): failed to open D:\+GitRepos+\tibia-sensor-sims\Data\RBDS001/RBDS001runT35_grf.mot.
+[2021-02-16 20:23:00.031] [info] Processing subject ...
+[2021-02-16 20:23:00.031] [info] Step 1: Loading generic model
+[2021-02-16 20:23:00.092] [info] Loaded model LaiArnold2017_refined_Fukuchi2017-Running from file ..\..\OpensimModel\LaiArnold2017_refined_Fukuchi2017-running.osim
+[2021-02-16 20:23:00.093] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 20:23:00.094] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 20:23:00.094] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 20:23:00.095] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 20:23:00.095] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 20:23:00.095] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 20:23:00.096] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 20:23:00.215] [info] Step 2: Scaling generic model
+[2021-02-16 20:23:00.287] [info] Loaded marker file RBDS001static.trc (48 markers, 150 frames)
+[2021-02-16 20:23:00.288] [info] Measurement 'pelvis_w'
+[2021-02-16 20:23:00.289] [info] 	pair 0 (R.ASIS, L.ASIS): model = 0.226592, experimental = 0.211665
+[2021-02-16 20:23:00.289] [info] 	pair 1 (R.PSIS, L.PSIS): model = 0.0910868, experimental = 0.0768436
+[2021-02-16 20:23:00.289] [info] 	overall scale factor = 0.888878
+[2021-02-16 20:23:00.290] [info] Measurement 'pelvis_d'
+[2021-02-16 20:23:00.290] [info] 	pair 0 (R.ASIS, R.PSIS): model = 0.180152, experimental = 0.18215
+[2021-02-16 20:23:00.290] [info] 	pair 1 (L.ASIS, L.PSIS): model = 0.180152, experimental = 0.188691
+[2021-02-16 20:23:00.291] [info] 	overall scale factor = 1.02925
+[2021-02-16 20:23:00.291] [info] Measurement 'pelvis_h'
+[2021-02-16 20:23:00.292] [info] 	pair 0 (R.ASIS, R.GTR): model = 0.143787, experimental = 0.141161
+[2021-02-16 20:23:00.292] [info] 	pair 1 (L.ASIS, L.GTR): model = 0.143787, experimental = 0.145919
+[2021-02-16 20:23:00.292] [info] 	pair 2 (R.PSIS, R.GTR): model = 0.191764, experimental = 0.193827
+[2021-02-16 20:23:00.293] [info] 	pair 3 (L.PSIS, L.GTR): model = 0.191763, experimental = 0.208402
+[2021-02-16 20:23:00.293] [info] 	pair 4 (R.Iliac.Crest, R.GTR): model = 0.203546, experimental = 0.173724
+[2021-02-16 20:23:00.293] [info] 	pair 5 (L.Iliac.Crest, L.GTR): model = 0.203546, experimental = 0.173833
+[2021-02-16 20:23:00.294] [info] 	overall scale factor = 0.966935
+[2021-02-16 20:23:00.294] [info] Measurement 'r_thigh_length'
+[2021-02-16 20:23:00.295] [info] 	pair 0 (R.GTR, R.Knee): model = 0.363281, experimental = 0.414263
+[2021-02-16 20:23:00.295] [info] 	overall scale factor = 1.14034
+[2021-02-16 20:23:00.295] [info] Measurement 'r_thigh_breadth'
+[2021-02-16 20:23:00.296] [info] 	pair 0 (R.Knee, R.Knee.Medial): model = 0.109391, experimental = 0.116991
+[2021-02-16 20:23:00.296] [info] 	overall scale factor = 1.06948
+[2021-02-16 20:23:00.296] [info] Measurement 'r_tibia_length'
+[2021-02-16 20:23:00.297] [info] 	pair 0 (R.HF, R.Ankle): model = 0.318649, experimental = 0.382141
+[2021-02-16 20:23:00.297] [info] 	overall scale factor = 1.19925
+[2021-02-16 20:23:00.297] [info] Measurement 'r_tibia_breadth'
+[2021-02-16 20:23:00.298] [info] 	pair 0 (R.Ankle, R.Ankle.Medial): model = 0.0912157, experimental = 0.0848813
+[2021-02-16 20:23:00.300] [info] 	overall scale factor = 0.930556
+[2021-02-16 20:23:00.300] [info] Measurement 'r_foot_length'
+[2021-02-16 20:23:00.301] [info] 	pair 0 (R.Heel.Top, R.MT2): model = 0.216289, experimental = 0.216893
+[2021-02-16 20:23:00.301] [info] 	overall scale factor = 1.00279
+[2021-02-16 20:23:00.302] [info] Measurement 'r_foot_height'
+[2021-02-16 20:23:00.302] [info] 	pair 0 (R.Heel.Top, R.Heel.Bottom): model = 0.0424332, experimental = 0.0495037
+[2021-02-16 20:23:00.302] [info] 	overall scale factor = 1.16663
+[2021-02-16 20:23:00.303] [info] Measurement 'l_thigh_length'
+[2021-02-16 20:23:00.303] [info] 	pair 0 (L.GTR, L.Knee): model = 0.363281, experimental = 0.417753
+[2021-02-16 20:23:00.303] [info] 	overall scale factor = 1.14994
+[2021-02-16 20:23:00.304] [info] Measurement 'l_thigh_breadth'
+[2021-02-16 20:23:00.304] [info] 	pair 0 (L.Knee, L.Knee.Medial): model = 0.109391, experimental = 0.112262
+[2021-02-16 20:23:00.305] [info] 	overall scale factor = 1.02625
+[2021-02-16 20:23:00.305] [info] Measurement 'l_tibia_length'
+[2021-02-16 20:23:00.305] [info] 	pair 0 (L.HF, L.Ankle): model = 0.318649, experimental = 0.38299
+[2021-02-16 20:23:00.306] [info] 	overall scale factor = 1.20192
+[2021-02-16 20:23:00.306] [info] Measurement 'l_tibia_breadth'
+[2021-02-16 20:23:00.306] [info] 	pair 0 (L.Ankle, L.Ankle.Medial): model = 0.0912157, experimental = 0.0814099
+[2021-02-16 20:23:00.307] [info] 	overall scale factor = 0.892499
+[2021-02-16 20:23:00.307] [info] Measurement 'l_foot_length'
+[2021-02-16 20:23:00.307] [info] 	pair 0 (L.Heel.Top, L.MT2): model = 0.216289, experimental = 0.220212
+[2021-02-16 20:23:00.308] [info] 	overall scale factor = 1.01814
+[2021-02-16 20:23:00.308] [info] Measurement 'l_foot_height'
+[2021-02-16 20:23:00.309] [info] 	pair 0 (L.Heel.Top, L.Heel.Bottom): model = 0.0424332, experimental = 0.0483985
+[2021-02-16 20:23:00.310] [info] 	overall scale factor = 1.14058
+[2021-02-16 20:23:00.562] [info] Wrote model file 'RBDS001_scaledModel.osim' from model.
+[2021-02-16 20:23:00.568] [info] Wrote scale file 'RBDS001_scaleSet.xml' for model model.
+[2021-02-16 20:23:00.568] [info] Step 3: Placing markers on model
+[2021-02-16 20:23:00.597] [info] Loaded marker file RBDS001static.trc (48 markers, 150 frames)
+[2021-02-16 20:23:00.597] [info] Averaged frames from time 0.0 to 0.5 in RBDS001static.trc (frames 1 to 76)
+[2021-02-16 20:23:00.599] [info] Deleted 1 unused markers from model model.
+[2021-02-16 20:23:00.699] [info] Frame at (t = 0.0):	 total squared error = 0.015228, marker error: RMS = 0.0233207, max = 0.0370468 (R.MT5)
+[2021-02-16 20:23:00.700] [info] Moved markers in model model to match locations in marker file 'RBDS001static.trc'.
+[2021-02-16 20:23:00.753] [info] Wrote model file 'RBDS001_scaledModelAdjusted.osim' from model model.
+[2021-02-16 20:23:00.836] [info] Loaded model model from file RBDS001_scaledModel.osim
+[2021-02-16 20:23:00.838] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 20:23:00.839] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 20:23:00.839] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 20:23:00.840] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 20:23:00.840] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 20:23:00.841] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 20:23:00.841] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 20:23:00.963] [info] Loaded model model from file RBDS001_scaledModelAdjusted.osim
+[2021-02-16 20:23:00.964] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 20:23:00.965] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 20:23:00.967] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 20:23:00.967] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 20:23:00.968] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 20:23:00.968] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 20:23:00.968] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 20:32:54.451] [info] Processing subject ...
+[2021-02-16 20:32:54.451] [info] Step 1: Loading generic model
+[2021-02-16 20:32:54.507] [info] Loaded model LaiArnold2017_refined_Fukuchi2017-Running from file ..\..\OpensimModel\LaiArnold2017_refined_Fukuchi2017-running.osim
+[2021-02-16 20:32:54.508] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 20:32:54.509] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 20:32:54.511] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 20:32:54.512] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 20:32:54.512] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 20:32:54.512] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 20:32:54.513] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 20:32:54.633] [info] Step 2: Scaling generic model
+[2021-02-16 20:32:54.707] [info] Loaded marker file RBDS001static.trc (48 markers, 150 frames)
+[2021-02-16 20:32:54.708] [info] Measurement 'pelvis_w'
+[2021-02-16 20:32:54.708] [info] 	pair 0 (R.ASIS, L.ASIS): model = 0.226592, experimental = 0.211665
+[2021-02-16 20:32:54.709] [info] 	pair 1 (R.PSIS, L.PSIS): model = 0.0910868, experimental = 0.0768436
+[2021-02-16 20:32:54.709] [info] 	overall scale factor = 0.888878
+[2021-02-16 20:32:54.709] [info] Measurement 'pelvis_d'
+[2021-02-16 20:32:54.710] [info] 	pair 0 (R.ASIS, R.PSIS): model = 0.180152, experimental = 0.18215
+[2021-02-16 20:32:54.712] [info] 	pair 1 (L.ASIS, L.PSIS): model = 0.180152, experimental = 0.188691
+[2021-02-16 20:32:54.712] [info] 	overall scale factor = 1.02925
+[2021-02-16 20:32:54.712] [info] Measurement 'pelvis_h'
+[2021-02-16 20:32:54.712] [info] 	pair 0 (R.ASIS, R.GTR): model = 0.143787, experimental = 0.141161
+[2021-02-16 20:32:54.712] [info] 	pair 1 (L.ASIS, L.GTR): model = 0.143787, experimental = 0.145919
+[2021-02-16 20:32:54.713] [info] 	pair 2 (R.PSIS, R.GTR): model = 0.191764, experimental = 0.193827
+[2021-02-16 20:32:54.713] [info] 	pair 3 (L.PSIS, L.GTR): model = 0.191763, experimental = 0.208402
+[2021-02-16 20:32:54.713] [info] 	pair 4 (R.Iliac.Crest, R.GTR): model = 0.203546, experimental = 0.173724
+[2021-02-16 20:32:54.713] [info] 	pair 5 (L.Iliac.Crest, L.GTR): model = 0.203546, experimental = 0.173833
+[2021-02-16 20:32:54.713] [info] 	overall scale factor = 0.966935
+[2021-02-16 20:32:54.714] [info] Measurement 'r_thigh_length'
+[2021-02-16 20:32:54.714] [info] 	pair 0 (R.GTR, R.Knee): model = 0.363281, experimental = 0.414263
+[2021-02-16 20:32:54.714] [info] 	overall scale factor = 1.14034
+[2021-02-16 20:32:54.714] [info] Measurement 'r_thigh_breadth'
+[2021-02-16 20:32:54.714] [info] 	pair 0 (R.Knee, R.Knee.Medial): model = 0.109391, experimental = 0.116991
+[2021-02-16 20:32:54.715] [info] 	overall scale factor = 1.06948
+[2021-02-16 20:32:54.715] [info] Measurement 'r_tibia_length'
+[2021-02-16 20:32:54.715] [info] 	pair 0 (R.HF, R.Ankle): model = 0.318649, experimental = 0.382141
+[2021-02-16 20:32:54.715] [info] 	overall scale factor = 1.19925
+[2021-02-16 20:32:54.715] [info] Measurement 'r_tibia_breadth'
+[2021-02-16 20:32:54.716] [info] 	pair 0 (R.Ankle, R.Ankle.Medial): model = 0.0912157, experimental = 0.0848813
+[2021-02-16 20:32:54.716] [info] 	overall scale factor = 0.930556
+[2021-02-16 20:32:54.716] [info] Measurement 'r_foot_length'
+[2021-02-16 20:32:54.717] [info] 	pair 0 (R.Heel.Top, R.MT2): model = 0.216289, experimental = 0.216893
+[2021-02-16 20:32:54.718] [info] 	overall scale factor = 1.00279
+[2021-02-16 20:32:54.719] [info] Measurement 'r_foot_height'
+[2021-02-16 20:32:54.719] [info] 	pair 0 (R.Heel.Top, R.Heel.Bottom): model = 0.0424332, experimental = 0.0495037
+[2021-02-16 20:32:54.719] [info] 	overall scale factor = 1.16663
+[2021-02-16 20:32:54.719] [info] Measurement 'l_thigh_length'
+[2021-02-16 20:32:54.719] [info] 	pair 0 (L.GTR, L.Knee): model = 0.363281, experimental = 0.417753
+[2021-02-16 20:32:54.720] [info] 	overall scale factor = 1.14994
+[2021-02-16 20:32:54.720] [info] Measurement 'l_thigh_breadth'
+[2021-02-16 20:32:54.720] [info] 	pair 0 (L.Knee, L.Knee.Medial): model = 0.109391, experimental = 0.112262
+[2021-02-16 20:32:54.720] [info] 	overall scale factor = 1.02625
+[2021-02-16 20:32:54.720] [info] Measurement 'l_tibia_length'
+[2021-02-16 20:32:54.721] [info] 	pair 0 (L.HF, L.Ankle): model = 0.318649, experimental = 0.38299
+[2021-02-16 20:32:54.721] [info] 	overall scale factor = 1.20192
+[2021-02-16 20:32:54.721] [info] Measurement 'l_tibia_breadth'
+[2021-02-16 20:32:54.721] [info] 	pair 0 (L.Ankle, L.Ankle.Medial): model = 0.0912157, experimental = 0.0814099
+[2021-02-16 20:32:54.721] [info] 	overall scale factor = 0.892499
+[2021-02-16 20:32:54.722] [info] Measurement 'l_foot_length'
+[2021-02-16 20:32:54.722] [info] 	pair 0 (L.Heel.Top, L.MT2): model = 0.216289, experimental = 0.220212
+[2021-02-16 20:32:54.722] [info] 	overall scale factor = 1.01814
+[2021-02-16 20:32:54.722] [info] Measurement 'l_foot_height'
+[2021-02-16 20:32:54.722] [info] 	pair 0 (L.Heel.Top, L.Heel.Bottom): model = 0.0424332, experimental = 0.0483985
+[2021-02-16 20:32:54.723] [info] 	overall scale factor = 1.14058
+[2021-02-16 20:32:54.961] [info] Wrote model file 'RBDS001_scaledModel.osim' from model.
+[2021-02-16 20:32:54.966] [info] Wrote scale file 'RBDS001_scaleSet.xml' for model model.
+[2021-02-16 20:32:54.967] [info] Step 3: Placing markers on model
+[2021-02-16 20:32:54.995] [info] Loaded marker file RBDS001static.trc (48 markers, 150 frames)
+[2021-02-16 20:32:54.995] [info] Averaged frames from time 0.0 to 0.5 in RBDS001static.trc (frames 1 to 76)
+[2021-02-16 20:32:54.996] [info] Deleted 1 unused markers from model model.
+[2021-02-16 20:32:55.097] [info] Frame at (t = 0.0):	 total squared error = 0.015228, marker error: RMS = 0.0233207, max = 0.0370468 (R.MT5)
+[2021-02-16 20:32:55.097] [info] Moved markers in model model to match locations in marker file 'RBDS001static.trc'.
+[2021-02-16 20:32:55.150] [info] Wrote model file 'RBDS001_scaledModelAdjusted.osim' from model model.
+[2021-02-16 20:32:55.242] [info] Loaded model model from file RBDS001_scaledModel.osim
+[2021-02-16 20:32:55.243] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 20:32:55.244] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 20:32:55.244] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 20:32:55.245] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 20:32:55.245] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 20:32:55.246] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 20:32:55.246] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 20:32:55.368] [info] Loaded model model from file RBDS001_scaledModelAdjusted.osim
+[2021-02-16 20:32:55.369] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 20:32:55.370] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 20:32:55.370] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 20:32:55.371] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 20:32:55.372] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 20:32:55.372] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 20:32:55.372] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 20:33:14.461] [info] Loaded model model from file RBDS001_scaledModelAdjusted.osim
+[2021-02-16 20:33:14.463] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 20:33:14.463] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 20:33:14.464] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 20:33:14.465] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 20:33:14.465] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 20:33:14.465] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 20:33:14.466] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 20:33:14.572] [cout] [info] 
+               MODEL: model
+         coordinates: 22
+              forces: 80
+           actuators: 80
+             muscles: 80
+            analyses: 0
+              probes: 0
+              bodies: 13
+              joints: 13
+         constraints: 2
+             markers: 49
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2021-02-16 20:33:14.572] [info] Running tool ...
+[2021-02-16 20:33:14.736] [info] Storage: read data file = RBDS001runT25_grf.mot (nr=9000 nc=19)
+[2021-02-16 20:33:14.840] [info] ExternalForce::RightGRF Data source being set to RBDS001runT25_grf
+[2021-02-16 20:33:14.840] [info] ExternalForce::LeftGRF Data source being set to RBDS001runT25_grf
+[2021-02-16 20:33:14.853] [info] Storage: read data file = RBDS001runT25_ik.mot (nr=4500 nc=23)
+[2021-02-16 20:33:14.929] [info] Low-pass filtering coordinates data with a cutoff frequency of 10.0...
+[2021-02-16 20:33:33.761] [info] InverseDynamicsTool: 4500 time frames in 15 second(s).
+[2021-02-16 20:33:40.438] [info] Loaded model model from file RBDS001_scaledModelAdjusted.osim
+[2021-02-16 20:33:40.441] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 20:33:40.441] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 20:33:40.442] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 20:33:40.444] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 20:33:40.444] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 20:33:40.444] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 20:33:40.445] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 20:33:40.598] [cout] [info] 
+               MODEL: model
+         coordinates: 22
+              forces: 80
+           actuators: 80
+             muscles: 80
+            analyses: 0
+              probes: 0
+              bodies: 13
+              joints: 13
+         constraints: 2
+             markers: 49
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2021-02-16 20:33:40.599] [info] Running tool ...
+[2021-02-16 20:33:40.828] [info] Storage: read data file = RBDS001runT35_grf.mot (nr=9000 nc=19)
+[2021-02-16 20:33:40.969] [info] ExternalForce::RightGRF Data source being set to RBDS001runT35_grf
+[2021-02-16 20:33:40.969] [info] ExternalForce::LeftGRF Data source being set to RBDS001runT35_grf
+[2021-02-16 20:33:40.986] [info] Storage: read data file = RBDS001runT35_ik.mot (nr=4500 nc=23)
+[2021-02-16 20:33:41.090] [info] Low-pass filtering coordinates data with a cutoff frequency of 10.0...
+[2021-02-16 20:34:02.056] [info] InverseDynamicsTool: 4500 time frames in 15 second(s).
+[2021-02-16 20:34:09.177] [info] Loaded model model from file RBDS001_scaledModelAdjusted.osim
+[2021-02-16 20:34:09.179] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-16 20:34:09.180] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-16 20:34:09.180] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-16 20:34:09.182] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-16 20:34:09.182] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-16 20:34:09.183] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-16 20:34:09.184] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-16 20:34:09.343] [cout] [info] 
+               MODEL: model
+         coordinates: 22
+              forces: 80
+           actuators: 80
+             muscles: 80
+            analyses: 0
+              probes: 0
+              bodies: 13
+              joints: 13
+         constraints: 2
+             markers: 49
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2021-02-16 20:34:09.343] [info] Running tool ...
+[2021-02-16 20:34:09.576] [info] Storage: read data file = RBDS001runT45_grf.mot (nr=9000 nc=19)
+[2021-02-16 20:34:09.721] [info] ExternalForce::RightGRF Data source being set to RBDS001runT45_grf
+[2021-02-16 20:34:09.721] [info] ExternalForce::LeftGRF Data source being set to RBDS001runT45_grf
+[2021-02-16 20:34:09.767] [info] Storage: read data file = RBDS001runT45_ik.mot (nr=4500 nc=23)
+[2021-02-16 20:34:09.874] [info] Low-pass filtering coordinates data with a cutoff frequency of 10.0...
+[2021-02-16 20:34:30.893] [info] InverseDynamicsTool: 4500 time frames in 15 second(s).
+[2021-02-18 13:56:21.670] [info] Processing subject ...
+[2021-02-18 13:56:21.676] [info] Step 1: Loading generic model
+[2021-02-18 13:56:21.922] [info] Loaded model LaiArnold2017_refined_Fukuchi2017-Running from file ..\..\OpensimModel\LaiArnold2017_refined_Fukuchi2017-running.osim
+[2021-02-18 13:56:21.986] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-18 13:56:21.996] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-18 13:56:21.997] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-18 13:56:22.043] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-18 13:56:22.044] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-18 13:56:22.044] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-18 13:56:22.054] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-18 13:56:22.218] [info] Step 2: Scaling generic model
+[2021-02-18 13:56:22.291] [info] Loaded marker file RBDS001static.trc (48 markers, 150 frames)
+[2021-02-18 13:56:22.291] [info] Measurement 'pelvis_w'
+[2021-02-18 13:56:22.292] [info] 	pair 0 (R.ASIS, L.ASIS): model = 0.226592, experimental = 0.211665
+[2021-02-18 13:56:22.292] [info] 	pair 1 (R.PSIS, L.PSIS): model = 0.0910868, experimental = 0.0768436
+[2021-02-18 13:56:22.292] [info] 	overall scale factor = 0.888878
+[2021-02-18 13:56:22.292] [info] Measurement 'pelvis_d'
+[2021-02-18 13:56:22.292] [info] 	pair 0 (R.ASIS, R.PSIS): model = 0.180152, experimental = 0.18215
+[2021-02-18 13:56:22.293] [info] 	pair 1 (L.ASIS, L.PSIS): model = 0.180152, experimental = 0.188691
+[2021-02-18 13:56:22.293] [info] 	overall scale factor = 1.02925
+[2021-02-18 13:56:22.293] [info] Measurement 'pelvis_h'
+[2021-02-18 13:56:22.293] [info] 	pair 0 (R.ASIS, R.GTR): model = 0.143787, experimental = 0.141161
+[2021-02-18 13:56:22.293] [info] 	pair 1 (L.ASIS, L.GTR): model = 0.143787, experimental = 0.145919
+[2021-02-18 13:56:22.293] [info] 	pair 2 (R.PSIS, R.GTR): model = 0.191764, experimental = 0.193827
+[2021-02-18 13:56:22.294] [info] 	pair 3 (L.PSIS, L.GTR): model = 0.191763, experimental = 0.208402
+[2021-02-18 13:56:22.294] [info] 	pair 4 (R.Iliac.Crest, R.GTR): model = 0.203546, experimental = 0.173724
+[2021-02-18 13:56:22.294] [info] 	pair 5 (L.Iliac.Crest, L.GTR): model = 0.203546, experimental = 0.173833
+[2021-02-18 13:56:22.294] [info] 	overall scale factor = 0.966935
+[2021-02-18 13:56:22.294] [info] Measurement 'r_thigh_length'
+[2021-02-18 13:56:22.294] [info] 	pair 0 (R.GTR, R.Knee): model = 0.363281, experimental = 0.414263
+[2021-02-18 13:56:22.295] [info] 	overall scale factor = 1.14034
+[2021-02-18 13:56:22.295] [info] Measurement 'r_thigh_breadth'
+[2021-02-18 13:56:22.295] [info] 	pair 0 (R.Knee, R.Knee.Medial): model = 0.109391, experimental = 0.116991
+[2021-02-18 13:56:22.295] [info] 	overall scale factor = 1.06948
+[2021-02-18 13:56:22.295] [info] Measurement 'r_tibia_length'
+[2021-02-18 13:56:22.295] [info] 	pair 0 (R.HF, R.Ankle): model = 0.318649, experimental = 0.382141
+[2021-02-18 13:56:22.295] [info] 	overall scale factor = 1.19925
+[2021-02-18 13:56:22.295] [info] Measurement 'r_tibia_breadth'
+[2021-02-18 13:56:22.295] [info] 	pair 0 (R.Ankle, R.Ankle.Medial): model = 0.0912157, experimental = 0.0848813
+[2021-02-18 13:56:22.295] [info] 	overall scale factor = 0.930556
+[2021-02-18 13:56:22.295] [info] Measurement 'r_foot_length'
+[2021-02-18 13:56:22.295] [info] 	pair 0 (R.Heel.Top, R.MT2): model = 0.216289, experimental = 0.216893
+[2021-02-18 13:56:22.296] [info] 	overall scale factor = 1.00279
+[2021-02-18 13:56:22.296] [info] Measurement 'r_foot_height'
+[2021-02-18 13:56:22.296] [info] 	pair 0 (R.Heel.Top, R.Heel.Bottom): model = 0.0424332, experimental = 0.0495037
+[2021-02-18 13:56:22.296] [info] 	overall scale factor = 1.16663
+[2021-02-18 13:56:22.296] [info] Measurement 'l_thigh_length'
+[2021-02-18 13:56:22.296] [info] 	pair 0 (L.GTR, L.Knee): model = 0.363281, experimental = 0.417753
+[2021-02-18 13:56:22.297] [info] 	overall scale factor = 1.14994
+[2021-02-18 13:56:22.297] [info] Measurement 'l_thigh_breadth'
+[2021-02-18 13:56:22.297] [info] 	pair 0 (L.Knee, L.Knee.Medial): model = 0.109391, experimental = 0.112262
+[2021-02-18 13:56:22.297] [info] 	overall scale factor = 1.02625
+[2021-02-18 13:56:22.297] [info] Measurement 'l_tibia_length'
+[2021-02-18 13:56:22.297] [info] 	pair 0 (L.HF, L.Ankle): model = 0.318649, experimental = 0.38299
+[2021-02-18 13:56:22.298] [info] 	overall scale factor = 1.20192
+[2021-02-18 13:56:22.298] [info] Measurement 'l_tibia_breadth'
+[2021-02-18 13:56:22.298] [info] 	pair 0 (L.Ankle, L.Ankle.Medial): model = 0.0912157, experimental = 0.0814099
+[2021-02-18 13:56:22.298] [info] 	overall scale factor = 0.892499
+[2021-02-18 13:56:22.298] [info] Measurement 'l_foot_length'
+[2021-02-18 13:56:22.298] [info] 	pair 0 (L.Heel.Top, L.MT2): model = 0.216289, experimental = 0.220212
+[2021-02-18 13:56:22.298] [info] 	overall scale factor = 1.01814
+[2021-02-18 13:56:22.299] [info] Measurement 'l_foot_height'
+[2021-02-18 13:56:22.299] [info] 	pair 0 (L.Heel.Top, L.Heel.Bottom): model = 0.0424332, experimental = 0.0483985
+[2021-02-18 13:56:22.299] [info] 	overall scale factor = 1.14058
+[2021-02-18 13:56:22.649] [info] Wrote model file 'RBDS001_scaledModel.osim' from model.
+[2021-02-18 13:56:22.663] [info] Wrote scale file 'RBDS001_scaleSet.xml' for model model.
+[2021-02-18 13:56:22.664] [info] Step 3: Placing markers on model
+[2021-02-18 13:56:22.691] [info] Loaded marker file RBDS001static.trc (48 markers, 150 frames)
+[2021-02-18 13:56:22.691] [info] Averaged frames from time 0.0 to 0.5 in RBDS001static.trc (frames 1 to 76)
+[2021-02-18 13:56:22.692] [info] Deleted 1 unused markers from model model.
+[2021-02-18 13:56:22.789] [info] Frame at (t = 0.0):	 total squared error = 0.015228, marker error: RMS = 0.0233207, max = 0.0370468 (R.MT5)
+[2021-02-18 13:56:22.790] [info] Moved markers in model model to match locations in marker file 'RBDS001static.trc'.
+[2021-02-18 13:56:23.029] [info] Wrote model file 'RBDS001_scaledModelAdjusted.osim' from model model.
+[2021-02-18 13:56:23.124] [info] Loaded model model from file RBDS001_scaledModel.osim
+[2021-02-18 13:56:23.125] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-18 13:56:23.126] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-18 13:56:23.126] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-18 13:56:23.127] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-18 13:56:23.127] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-18 13:56:23.129] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-18 13:56:23.129] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-18 13:56:23.256] [info] Loaded model model from file RBDS001_scaledModelAdjusted.osim
+[2021-02-18 13:56:23.257] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-18 13:56:23.257] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-18 13:56:23.258] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-18 13:56:23.258] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-18 13:56:23.258] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-18 13:56:23.259] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-18 13:56:23.259] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-18 14:13:47.221] [info] Processing subject ...
+[2021-02-18 14:13:47.222] [info] Step 1: Loading generic model
+[2021-02-18 14:13:47.277] [info] Loaded model LaiArnold2017_refined_Fukuchi2017-Running from file ..\..\OpensimModel\LaiArnold2017_refined_Fukuchi2017-running.osim
+[2021-02-18 14:13:47.483] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-18 14:13:47.483] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-18 14:13:47.484] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-18 14:13:47.564] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-18 14:13:47.565] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-18 14:13:47.565] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-18 14:13:47.566] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-18 14:13:47.730] [info] Step 2: Scaling generic model
+[2021-02-18 14:13:47.805] [info] Loaded marker file RBDS001static.trc (48 markers, 150 frames)
+[2021-02-18 14:13:47.805] [info] Measurement 'pelvis_w'
+[2021-02-18 14:13:47.806] [info] 	pair 0 (R.ASIS, L.ASIS): model = 0.226592, experimental = 0.211665
+[2021-02-18 14:13:47.806] [info] 	pair 1 (R.PSIS, L.PSIS): model = 0.0910868, experimental = 0.0768436
+[2021-02-18 14:13:47.806] [info] 	overall scale factor = 0.888878
+[2021-02-18 14:13:47.806] [info] Measurement 'pelvis_d'
+[2021-02-18 14:13:47.807] [info] 	pair 0 (R.ASIS, R.PSIS): model = 0.180152, experimental = 0.18215
+[2021-02-18 14:13:47.807] [info] 	pair 1 (L.ASIS, L.PSIS): model = 0.180152, experimental = 0.188691
+[2021-02-18 14:13:47.807] [info] 	overall scale factor = 1.02925
+[2021-02-18 14:13:47.807] [info] Measurement 'pelvis_h'
+[2021-02-18 14:13:47.807] [info] 	pair 0 (R.ASIS, R.GTR): model = 0.143787, experimental = 0.141161
+[2021-02-18 14:13:47.808] [info] 	pair 1 (L.ASIS, L.GTR): model = 0.143787, experimental = 0.145919
+[2021-02-18 14:13:47.808] [info] 	pair 2 (R.PSIS, R.GTR): model = 0.191764, experimental = 0.193827
+[2021-02-18 14:13:47.808] [info] 	pair 3 (L.PSIS, L.GTR): model = 0.191763, experimental = 0.208402
+[2021-02-18 14:13:47.808] [info] 	pair 4 (R.Iliac.Crest, R.GTR): model = 0.203546, experimental = 0.173724
+[2021-02-18 14:13:47.808] [info] 	pair 5 (L.Iliac.Crest, L.GTR): model = 0.203546, experimental = 0.173833
+[2021-02-18 14:13:47.809] [info] 	overall scale factor = 0.966935
+[2021-02-18 14:13:47.809] [info] Measurement 'r_thigh_length'
+[2021-02-18 14:13:47.809] [info] 	pair 0 (R.GTR, R.Knee): model = 0.363281, experimental = 0.414263
+[2021-02-18 14:13:47.809] [info] 	overall scale factor = 1.14034
+[2021-02-18 14:13:47.809] [info] Measurement 'r_thigh_breadth'
+[2021-02-18 14:13:47.809] [info] 	pair 0 (R.Knee, R.Knee.Medial): model = 0.109391, experimental = 0.116991
+[2021-02-18 14:13:47.809] [info] 	overall scale factor = 1.06948
+[2021-02-18 14:13:47.810] [info] Measurement 'r_tibia_length'
+[2021-02-18 14:13:47.810] [info] 	pair 0 (R.HF, R.Ankle): model = 0.318649, experimental = 0.382141
+[2021-02-18 14:13:47.810] [info] 	overall scale factor = 1.19925
+[2021-02-18 14:13:47.810] [info] Measurement 'r_tibia_breadth'
+[2021-02-18 14:13:47.810] [info] 	pair 0 (R.Ankle, R.Ankle.Medial): model = 0.0912157, experimental = 0.0848813
+[2021-02-18 14:13:47.810] [info] 	overall scale factor = 0.930556
+[2021-02-18 14:13:47.810] [info] Measurement 'r_foot_length'
+[2021-02-18 14:13:47.810] [info] 	pair 0 (R.Heel.Top, R.MT2): model = 0.216289, experimental = 0.216893
+[2021-02-18 14:13:47.811] [info] 	overall scale factor = 1.00279
+[2021-02-18 14:13:47.811] [info] Measurement 'r_foot_height'
+[2021-02-18 14:13:47.811] [info] 	pair 0 (R.Heel.Top, R.Heel.Bottom): model = 0.0424332, experimental = 0.0495037
+[2021-02-18 14:13:47.811] [info] 	overall scale factor = 1.16663
+[2021-02-18 14:13:47.811] [info] Measurement 'l_thigh_length'
+[2021-02-18 14:13:47.811] [info] 	pair 0 (L.GTR, L.Knee): model = 0.363281, experimental = 0.417753
+[2021-02-18 14:13:47.811] [info] 	overall scale factor = 1.14994
+[2021-02-18 14:13:47.812] [info] Measurement 'l_thigh_breadth'
+[2021-02-18 14:13:47.812] [info] 	pair 0 (L.Knee, L.Knee.Medial): model = 0.109391, experimental = 0.112262
+[2021-02-18 14:13:47.812] [info] 	overall scale factor = 1.02625
+[2021-02-18 14:13:47.812] [info] Measurement 'l_tibia_length'
+[2021-02-18 14:13:47.812] [info] 	pair 0 (L.HF, L.Ankle): model = 0.318649, experimental = 0.38299
+[2021-02-18 14:13:47.812] [info] 	overall scale factor = 1.20192
+[2021-02-18 14:13:47.812] [info] Measurement 'l_tibia_breadth'
+[2021-02-18 14:13:47.812] [info] 	pair 0 (L.Ankle, L.Ankle.Medial): model = 0.0912157, experimental = 0.0814099
+[2021-02-18 14:13:47.813] [info] 	overall scale factor = 0.892499
+[2021-02-18 14:13:47.813] [info] Measurement 'l_foot_length'
+[2021-02-18 14:13:47.813] [info] 	pair 0 (L.Heel.Top, L.MT2): model = 0.216289, experimental = 0.220212
+[2021-02-18 14:13:47.813] [info] 	overall scale factor = 1.01814
+[2021-02-18 14:13:47.813] [info] Measurement 'l_foot_height'
+[2021-02-18 14:13:47.813] [info] 	pair 0 (L.Heel.Top, L.Heel.Bottom): model = 0.0424332, experimental = 0.0483985
+[2021-02-18 14:13:47.813] [info] 	overall scale factor = 1.14058
+[2021-02-18 14:13:48.050] [info] Wrote model file 'RBDS001_scaledModel.osim' from model.
+[2021-02-18 14:13:48.057] [info] Wrote scale file 'RBDS001_scaleSet.xml' for model model.
+[2021-02-18 14:13:48.058] [info] Step 3: Placing markers on model
+[2021-02-18 14:13:48.090] [info] Loaded marker file RBDS001static.trc (48 markers, 150 frames)
+[2021-02-18 14:13:48.091] [info] Averaged frames from time 0.0 to 0.5 in RBDS001static.trc (frames 1 to 76)
+[2021-02-18 14:13:48.091] [info] Deleted 1 unused markers from model model.
+[2021-02-18 14:13:48.196] [info] Frame at (t = 0.0):	 total squared error = 0.015228, marker error: RMS = 0.0233207, max = 0.0370468 (R.MT5)
+[2021-02-18 14:13:48.197] [info] Moved markers in model model to match locations in marker file 'RBDS001static.trc'.
+[2021-02-18 14:13:48.258] [info] Wrote model file 'RBDS001_scaledModelAdjusted.osim' from model model.
+[2021-02-18 14:13:48.349] [info] Loaded model model from file RBDS001_scaledModel.osim
+[2021-02-18 14:13:48.351] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-18 14:13:48.351] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-18 14:13:48.352] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-18 14:13:48.353] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-18 14:13:48.353] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-18 14:13:48.353] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-18 14:13:48.354] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-18 14:13:48.477] [info] Loaded model model from file RBDS001_scaledModelAdjusted.osim
+[2021-02-18 14:13:48.479] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-18 14:13:48.479] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-18 14:13:48.480] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-18 14:13:48.481] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-18 14:13:48.481] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-18 14:13:48.482] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-18 14:13:48.482] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-18 14:17:25.964] [info] Processing subject ...
+[2021-02-18 14:17:25.964] [info] Step 1: Loading generic model
+[2021-02-18 14:17:26.016] [info] Loaded model LaiArnold2017_refined_Fukuchi2017-Running from file ..\..\OpensimModel\LaiArnold2017_refined_Fukuchi2017-running.osim
+[2021-02-18 14:17:26.018] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-18 14:17:26.018] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-18 14:17:26.018] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-18 14:17:26.019] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-18 14:17:26.019] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-18 14:17:26.020] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-18 14:17:26.021] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-18 14:17:26.141] [info] Step 2: Scaling generic model
+[2021-02-18 14:17:26.214] [info] Loaded marker file RBDS001static.trc (48 markers, 150 frames)
+[2021-02-18 14:17:26.214] [info] Measurement 'pelvis_w'
+[2021-02-18 14:17:26.215] [info] 	pair 0 (R.ASIS, L.ASIS): model = 0.226592, experimental = 0.211665
+[2021-02-18 14:17:26.215] [info] 	pair 1 (R.PSIS, L.PSIS): model = 0.0910868, experimental = 0.0768436
+[2021-02-18 14:17:26.215] [info] 	overall scale factor = 0.888878
+[2021-02-18 14:17:26.215] [info] Measurement 'pelvis_d'
+[2021-02-18 14:17:26.215] [info] 	pair 0 (R.ASIS, R.PSIS): model = 0.180152, experimental = 0.18215
+[2021-02-18 14:17:26.216] [info] 	pair 1 (L.ASIS, L.PSIS): model = 0.180152, experimental = 0.188691
+[2021-02-18 14:17:26.216] [info] 	overall scale factor = 1.02925
+[2021-02-18 14:17:26.216] [info] Measurement 'pelvis_h'
+[2021-02-18 14:17:26.216] [info] 	pair 0 (R.ASIS, R.GTR): model = 0.143787, experimental = 0.141161
+[2021-02-18 14:17:26.216] [info] 	pair 1 (L.ASIS, L.GTR): model = 0.143787, experimental = 0.145919
+[2021-02-18 14:17:26.217] [info] 	pair 2 (R.PSIS, R.GTR): model = 0.191764, experimental = 0.193827
+[2021-02-18 14:17:26.217] [info] 	pair 3 (L.PSIS, L.GTR): model = 0.191763, experimental = 0.208402
+[2021-02-18 14:17:26.217] [info] 	pair 4 (R.Iliac.Crest, R.GTR): model = 0.203546, experimental = 0.173724
+[2021-02-18 14:17:26.217] [info] 	pair 5 (L.Iliac.Crest, L.GTR): model = 0.203546, experimental = 0.173833
+[2021-02-18 14:17:26.217] [info] 	overall scale factor = 0.966935
+[2021-02-18 14:17:26.217] [info] Measurement 'r_thigh_length'
+[2021-02-18 14:17:26.218] [info] 	pair 0 (R.GTR, R.Knee): model = 0.363281, experimental = 0.414263
+[2021-02-18 14:17:26.218] [info] 	overall scale factor = 1.14034
+[2021-02-18 14:17:26.218] [info] Measurement 'r_thigh_breadth'
+[2021-02-18 14:17:26.218] [info] 	pair 0 (R.Knee, R.Knee.Medial): model = 0.109391, experimental = 0.116991
+[2021-02-18 14:17:26.218] [info] 	overall scale factor = 1.06948
+[2021-02-18 14:17:26.218] [info] Measurement 'r_tibia_length'
+[2021-02-18 14:17:26.218] [info] 	pair 0 (R.HF, R.Ankle): model = 0.318649, experimental = 0.382141
+[2021-02-18 14:17:26.218] [info] 	overall scale factor = 1.19925
+[2021-02-18 14:17:26.219] [info] Measurement 'r_tibia_breadth'
+[2021-02-18 14:17:26.219] [info] 	pair 0 (R.Ankle, R.Ankle.Medial): model = 0.0912157, experimental = 0.0848813
+[2021-02-18 14:17:26.219] [info] 	overall scale factor = 0.930556
+[2021-02-18 14:17:26.219] [info] Measurement 'r_foot_length'
+[2021-02-18 14:17:26.219] [info] 	pair 0 (R.Heel.Top, R.MT2): model = 0.216289, experimental = 0.216893
+[2021-02-18 14:17:26.219] [info] 	overall scale factor = 1.00279
+[2021-02-18 14:17:26.219] [info] Measurement 'r_foot_height'
+[2021-02-18 14:17:26.220] [info] 	pair 0 (R.Heel.Top, R.Heel.Bottom): model = 0.0424332, experimental = 0.0495037
+[2021-02-18 14:17:26.220] [info] 	overall scale factor = 1.16663
+[2021-02-18 14:17:26.220] [info] Measurement 'l_thigh_length'
+[2021-02-18 14:17:26.220] [info] 	pair 0 (L.GTR, L.Knee): model = 0.363281, experimental = 0.417753
+[2021-02-18 14:17:26.220] [info] 	overall scale factor = 1.14994
+[2021-02-18 14:17:26.220] [info] Measurement 'l_thigh_breadth'
+[2021-02-18 14:17:26.220] [info] 	pair 0 (L.Knee, L.Knee.Medial): model = 0.109391, experimental = 0.112262
+[2021-02-18 14:17:26.220] [info] 	overall scale factor = 1.02625
+[2021-02-18 14:17:26.220] [info] Measurement 'l_tibia_length'
+[2021-02-18 14:17:26.221] [info] 	pair 0 (L.HF, L.Ankle): model = 0.318649, experimental = 0.38299
+[2021-02-18 14:17:26.221] [info] 	overall scale factor = 1.20192
+[2021-02-18 14:17:26.221] [info] Measurement 'l_tibia_breadth'
+[2021-02-18 14:17:26.221] [info] 	pair 0 (L.Ankle, L.Ankle.Medial): model = 0.0912157, experimental = 0.0814099
+[2021-02-18 14:17:26.221] [info] 	overall scale factor = 0.892499
+[2021-02-18 14:17:26.221] [info] Measurement 'l_foot_length'
+[2021-02-18 14:17:26.221] [info] 	pair 0 (L.Heel.Top, L.MT2): model = 0.216289, experimental = 0.220212
+[2021-02-18 14:17:26.222] [info] 	overall scale factor = 1.01814
+[2021-02-18 14:17:26.222] [info] Measurement 'l_foot_height'
+[2021-02-18 14:17:26.222] [info] 	pair 0 (L.Heel.Top, L.Heel.Bottom): model = 0.0424332, experimental = 0.0483985
+[2021-02-18 14:17:26.222] [info] 	overall scale factor = 1.14058
+[2021-02-18 14:17:26.464] [info] Wrote model file 'RBDS001_scaledModel.osim' from model.
+[2021-02-18 14:17:26.469] [info] Wrote scale file 'RBDS001_scaleSet.xml' for model model.
+[2021-02-18 14:17:26.469] [info] Step 3: Placing markers on model
+[2021-02-18 14:17:26.496] [info] Loaded marker file RBDS001static.trc (48 markers, 150 frames)
+[2021-02-18 14:17:26.497] [info] Averaged frames from time 0.0 to 0.5 in RBDS001static.trc (frames 1 to 76)
+[2021-02-18 14:17:26.497] [info] Deleted 1 unused markers from model model.
+[2021-02-18 14:17:26.596] [info] Frame at (t = 0.0):	 total squared error = 0.015228, marker error: RMS = 0.0233207, max = 0.0370468 (R.MT5)
+[2021-02-18 14:17:26.597] [info] Moved markers in model model to match locations in marker file 'RBDS001static.trc'.
+[2021-02-18 14:17:26.647] [info] Wrote model file 'RBDS001_scaledModelAdjusted.osim' from model model.
+[2021-02-18 14:17:26.728] [info] Loaded model model from file RBDS001_scaledModel.osim
+[2021-02-18 14:17:26.730] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-18 14:17:26.731] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-18 14:17:26.731] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-18 14:17:26.732] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-18 14:17:26.732] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-18 14:17:26.732] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-18 14:17:26.733] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-18 14:17:26.871] [info] Loaded model model from file RBDS001_scaledModelAdjusted.osim
+[2021-02-18 14:17:26.873] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-18 14:17:26.873] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-18 14:17:26.874] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-18 14:17:26.875] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-18 14:17:26.875] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-18 14:17:26.875] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-18 14:17:26.876] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-18 14:23:15.476] [info] Loaded model model from file RBDS001_scaledModelAdjusted.osim
+[2021-02-18 14:23:15.576] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-18 14:23:15.577] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-18 14:23:15.578] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-18 14:23:15.664] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-18 14:23:15.665] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-18 14:23:15.666] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-18 14:23:15.669] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-18 14:23:15.825] [cout] [info] 
+               MODEL: model
+         coordinates: 22
+              forces: 80
+           actuators: 80
+             muscles: 80
+            analyses: 0
+              probes: 0
+              bodies: 13
+              joints: 13
+         constraints: 2
+             markers: 49
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2021-02-18 14:23:15.826] [info] Running tool ...
+[2021-02-18 14:23:15.991] [info] Storage: read data file = RBDS001runT25_grf.mot (nr=9000 nc=19)
+[2021-02-18 14:23:16.100] [info] ExternalForce::RightGRF Data source being set to RBDS001runT25_grf
+[2021-02-18 14:23:16.100] [info] ExternalForce::LeftGRF Data source being set to RBDS001runT25_grf
+[2021-02-18 14:23:16.115] [info] Storage: read data file = RBDS001runT25_ik.mot (nr=4500 nc=23)
+[2021-02-18 14:23:16.189] [info] Low-pass filtering coordinates data with a cutoff frequency of 10.0...
+[2021-02-18 14:23:31.889] [info] InverseDynamicsTool: 4500 time frames in 12 second(s).
+[2021-02-18 14:28:27.436] [info] Processing subject ...
+[2021-02-18 14:28:27.436] [info] Step 1: Loading generic model
+[2021-02-18 14:28:27.493] [info] Loaded model LaiArnold2017_refined_Fukuchi2017-Running from file ..\..\OpensimModel\LaiArnold2017_refined_Fukuchi2017-running.osim
+[2021-02-18 14:28:27.562] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-18 14:28:27.563] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-18 14:28:27.564] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-18 14:28:27.622] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-18 14:28:27.622] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-18 14:28:27.624] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-18 14:28:27.628] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-18 14:28:27.820] [info] Step 2: Scaling generic model
+[2021-02-18 14:28:27.895] [info] Loaded marker file RBDS001static.trc (48 markers, 150 frames)
+[2021-02-18 14:28:27.896] [info] Measurement 'pelvis_w'
+[2021-02-18 14:28:27.897] [info] 	pair 0 (R.ASIS, L.ASIS): model = 0.226592, experimental = 0.211665
+[2021-02-18 14:28:27.901] [info] 	pair 1 (R.PSIS, L.PSIS): model = 0.0910868, experimental = 0.0768436
+[2021-02-18 14:28:27.901] [info] 	overall scale factor = 0.888878
+[2021-02-18 14:28:27.902] [info] Measurement 'pelvis_d'
+[2021-02-18 14:28:27.902] [info] 	pair 0 (R.ASIS, R.PSIS): model = 0.180152, experimental = 0.18215
+[2021-02-18 14:28:27.903] [info] 	pair 1 (L.ASIS, L.PSIS): model = 0.180152, experimental = 0.188691
+[2021-02-18 14:28:27.903] [info] 	overall scale factor = 1.02925
+[2021-02-18 14:28:27.904] [info] Measurement 'pelvis_h'
+[2021-02-18 14:28:27.904] [info] 	pair 0 (R.ASIS, R.GTR): model = 0.143787, experimental = 0.141161
+[2021-02-18 14:28:27.904] [info] 	pair 1 (L.ASIS, L.GTR): model = 0.143787, experimental = 0.145919
+[2021-02-18 14:28:27.905] [info] 	pair 2 (R.PSIS, R.GTR): model = 0.191764, experimental = 0.193827
+[2021-02-18 14:28:27.905] [info] 	pair 3 (L.PSIS, L.GTR): model = 0.191763, experimental = 0.208402
+[2021-02-18 14:28:27.906] [info] 	pair 4 (R.Iliac.Crest, R.GTR): model = 0.203546, experimental = 0.173724
+[2021-02-18 14:28:27.907] [info] 	pair 5 (L.Iliac.Crest, L.GTR): model = 0.203546, experimental = 0.173833
+[2021-02-18 14:28:27.907] [info] 	overall scale factor = 0.966935
+[2021-02-18 14:28:27.910] [info] Measurement 'r_thigh_length'
+[2021-02-18 14:28:27.911] [info] 	pair 0 (R.GTR, R.Knee): model = 0.363281, experimental = 0.414263
+[2021-02-18 14:28:27.911] [info] 	overall scale factor = 1.14034
+[2021-02-18 14:28:27.911] [info] Measurement 'r_thigh_breadth'
+[2021-02-18 14:28:27.912] [info] 	pair 0 (R.Knee, R.Knee.Medial): model = 0.109391, experimental = 0.116991
+[2021-02-18 14:28:27.912] [info] 	overall scale factor = 1.06948
+[2021-02-18 14:28:27.912] [info] Measurement 'r_tibia_length'
+[2021-02-18 14:28:27.913] [info] 	pair 0 (R.HF, R.Ankle): model = 0.318649, experimental = 0.382141
+[2021-02-18 14:28:27.913] [info] 	overall scale factor = 1.19925
+[2021-02-18 14:28:27.913] [info] Measurement 'r_tibia_breadth'
+[2021-02-18 14:28:27.914] [info] 	pair 0 (R.Ankle, R.Ankle.Medial): model = 0.0912157, experimental = 0.0848813
+[2021-02-18 14:28:27.914] [info] 	overall scale factor = 0.930556
+[2021-02-18 14:28:27.915] [info] Measurement 'r_foot_length'
+[2021-02-18 14:28:27.915] [info] 	pair 0 (R.Heel.Top, R.MT2): model = 0.216289, experimental = 0.216893
+[2021-02-18 14:28:27.916] [info] 	overall scale factor = 1.00279
+[2021-02-18 14:28:27.919] [info] Measurement 'r_foot_height'
+[2021-02-18 14:28:27.919] [info] 	pair 0 (R.Heel.Top, R.Heel.Bottom): model = 0.0424332, experimental = 0.0495037
+[2021-02-18 14:28:27.920] [info] 	overall scale factor = 1.16663
+[2021-02-18 14:28:27.920] [info] Measurement 'l_thigh_length'
+[2021-02-18 14:28:27.921] [info] 	pair 0 (L.GTR, L.Knee): model = 0.363281, experimental = 0.417753
+[2021-02-18 14:28:27.921] [info] 	overall scale factor = 1.14994
+[2021-02-18 14:28:27.921] [info] Measurement 'l_thigh_breadth'
+[2021-02-18 14:28:27.922] [info] 	pair 0 (L.Knee, L.Knee.Medial): model = 0.109391, experimental = 0.112262
+[2021-02-18 14:28:27.922] [info] 	overall scale factor = 1.02625
+[2021-02-18 14:28:27.923] [info] Measurement 'l_tibia_length'
+[2021-02-18 14:28:27.923] [info] 	pair 0 (L.HF, L.Ankle): model = 0.318649, experimental = 0.38299
+[2021-02-18 14:28:27.923] [info] 	overall scale factor = 1.20192
+[2021-02-18 14:28:27.924] [info] Measurement 'l_tibia_breadth'
+[2021-02-18 14:28:27.924] [info] 	pair 0 (L.Ankle, L.Ankle.Medial): model = 0.0912157, experimental = 0.0814099
+[2021-02-18 14:28:27.924] [info] 	overall scale factor = 0.892499
+[2021-02-18 14:28:27.925] [info] Measurement 'l_foot_length'
+[2021-02-18 14:28:27.926] [info] 	pair 0 (L.Heel.Top, L.MT2): model = 0.216289, experimental = 0.220212
+[2021-02-18 14:28:27.926] [info] 	overall scale factor = 1.01814
+[2021-02-18 14:28:27.929] [info] Measurement 'l_foot_height'
+[2021-02-18 14:28:27.929] [info] 	pair 0 (L.Heel.Top, L.Heel.Bottom): model = 0.0424332, experimental = 0.0483985
+[2021-02-18 14:28:27.930] [info] 	overall scale factor = 1.14058
+[2021-02-18 14:28:28.214] [info] Wrote model file 'RBDS001_scaledModel.osim' from model.
+[2021-02-18 14:28:28.220] [info] Wrote scale file 'RBDS001_scaleSet.xml' for model model.
+[2021-02-18 14:28:28.220] [info] Step 3: Placing markers on model
+[2021-02-18 14:28:28.254] [info] Loaded marker file RBDS001static.trc (48 markers, 150 frames)
+[2021-02-18 14:28:28.255] [info] Averaged frames from time 0.0 to 0.5 in RBDS001static.trc (frames 1 to 76)
+[2021-02-18 14:28:28.257] [info] Deleted 1 unused markers from model model.
+[2021-02-18 14:28:28.377] [info] Frame at (t = 0.0):	 total squared error = 0.015228, marker error: RMS = 0.0233207, max = 0.0370468 (R.MT5)
+[2021-02-18 14:28:28.377] [info] Moved markers in model model to match locations in marker file 'RBDS001static.trc'.
+[2021-02-18 14:28:28.440] [info] Wrote model file 'RBDS001_scaledModelAdjusted.osim' from model model.
+[2021-02-18 14:28:28.527] [info] Loaded model model from file RBDS001_scaledModel.osim
+[2021-02-18 14:28:28.529] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-18 14:28:28.529] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-18 14:28:28.532] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-18 14:28:28.533] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-18 14:28:28.533] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-18 14:28:28.534] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-18 14:28:28.534] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-18 14:28:28.657] [info] Loaded model model from file RBDS001_scaledModelAdjusted.osim
+[2021-02-18 14:28:28.659] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-18 14:28:28.660] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-18 14:28:28.662] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-18 14:28:28.663] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-18 14:28:28.664] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-18 14:28:28.664] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-18 14:28:28.664] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-18 14:29:59.180] [info] Loaded model model from file RBDS001_scaledModelAdjusted.osim
+[2021-02-18 14:29:59.186] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-18 14:29:59.187] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-18 14:29:59.187] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-18 14:29:59.188] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-18 14:29:59.189] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-18 14:29:59.189] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-18 14:29:59.189] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-18 14:29:59.303] [cout] [info] 
+               MODEL: model
+         coordinates: 22
+              forces: 80
+           actuators: 80
+             muscles: 80
+            analyses: 0
+              probes: 0
+              bodies: 13
+              joints: 13
+         constraints: 2
+             markers: 49
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2021-02-18 14:29:59.304] [info] Running tool ...
+[2021-02-18 14:29:59.470] [info] Storage: read data file = RBDS001runT25_grf.mot (nr=9000 nc=19)
+[2021-02-18 14:29:59.575] [info] ExternalForce::RightGRF Data source being set to RBDS001runT25_grf
+[2021-02-18 14:29:59.575] [info] ExternalForce::LeftGRF Data source being set to RBDS001runT25_grf
+[2021-02-18 14:29:59.589] [info] Storage: read data file = RBDS001runT25_ik.mot (nr=4500 nc=23)
+[2021-02-18 14:29:59.662] [info] Low-pass filtering coordinates data with a cutoff frequency of 10.0...
+[2021-02-18 14:30:20.383] [info] InverseDynamicsTool: 4500 time frames in 16 second(s).
+[2021-02-18 15:09:05.206] [error] A model has not been set.
+[2021-02-18 15:09:31.787] [info] AbstractTool  loading model RBDS001_scaledModelAdjusted_sensor.osim
+[2021-02-18 15:10:22.942] [error] A model has not been set.
+[2021-02-18 15:10:27.564] [info] AbstractTool  loading model RBDS001_scaledModelAdjusted_sensors.osim
+[2021-02-18 15:10:27.664] [info] Loaded model model from file RBDS001_scaledModelAdjusted_sensors.osim
+[2021-02-18 15:10:27.717] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-18 15:10:27.717] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-18 15:10:27.722] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-18 15:10:27.775] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-18 15:10:27.776] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-18 15:10:27.778] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-18 15:10:27.781] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-18 15:10:32.292] [info] AbstractTool  loading model RBDS001_scaledModelAdjusted_sensors.osim
+[2021-02-18 15:10:32.346] [info] Loaded model model from file RBDS001_scaledModelAdjusted_sensors.osim
+[2021-02-18 15:10:32.348] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-18 15:10:32.348] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-18 15:10:32.348] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-18 15:10:32.357] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-18 15:10:32.358] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-18 15:10:32.359] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-18 15:10:32.362] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-18 15:10:32.639] [info] Storage: read data file = RBDS001runT25_grf.mot (nr=9000 nc=19)
+[2021-02-18 15:10:32.749] [info] ExternalForce::RightGRF Data source being set to RBDS001runT25_grf
+[2021-02-18 15:10:32.749] [info] ExternalForce::LeftGRF Data source being set to RBDS001runT25_grf
+[2021-02-18 15:10:32.763] [info] Loading coordinates from file 'RBDS001runT25_ik.mot'.
+[2021-02-18 15:10:32.763] [info] Storage: read data file = RBDS001runT25_ik.mot (nr=4500 nc=23)
+[2021-02-18 15:10:32.841] [info] Low-pass filtering coordinates data with a cutoff frequency of 10.0...
+[2021-02-18 15:10:41.691] [info] AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 7.5560037716105719e-09 required: 1e-10.
+[2021-02-18 15:10:41.703] [error] Model unable to assemble: AssemblySolver::assemble() Failed: SimTK Exception thrown at Assembler.cpp:897:
+  Method Assembler::assemble() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 7.5560037747685622e-09 required: 1e-10..Model relaxing constraints and trying again.
+[2021-02-18 15:10:51.398] [info] Found 9000 state vectors with time stamps ranging from -15.0 to 44.9933.
+[2021-02-18 15:10:51.398] [info] Executing the analyses from -1.5e-05 to 29.9933...
+[2021-02-18 15:11:13.981] [info] Printing results of investigation  to ./
+[2021-02-18 15:18:42.533] [info] AbstractTool  loading model RBDS001_scaledModelAdjusted_sensors.osim
+[2021-02-18 15:18:42.584] [info] Loaded model model from file RBDS001_scaledModelAdjusted_sensors.osim
+[2021-02-18 15:18:47.556] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-18 15:18:47.556] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-18 15:18:47.557] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-18 15:18:47.635] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-18 15:18:47.635] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-18 15:18:47.636] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-18 15:18:47.640] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-18 15:18:47.950] [info] Storage: read data file = RBDS001runT25_grf.mot (nr=9000 nc=19)
+[2021-02-18 15:18:48.055] [info] ExternalForce::RightGRF Data source being set to RBDS001runT25_grf
+[2021-02-18 15:18:48.056] [info] ExternalForce::LeftGRF Data source being set to RBDS001runT25_grf
+[2021-02-18 15:18:48.068] [info] Loading coordinates from file 'RBDS001runT25_ik.mot'.
+[2021-02-18 15:18:48.069] [info] Storage: read data file = RBDS001runT25_ik.mot (nr=4500 nc=23)
+[2021-02-18 15:18:48.147] [info] Low-pass filtering coordinates data with a cutoff frequency of 10.0...
+[2021-02-18 15:18:54.558] [info] AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 7.5560037716105719e-09 required: 1e-10.
+[2021-02-18 15:18:54.567] [error] Model unable to assemble: AssemblySolver::assemble() Failed: SimTK Exception thrown at Assembler.cpp:897:
+  Method Assembler::assemble() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 7.5560037747685622e-09 required: 1e-10..Model relaxing constraints and trying again.
+[2021-02-18 15:19:05.725] [info] Found 9000 state vectors with time stamps ranging from -15.0 to 44.9933.
+[2021-02-18 15:19:05.725] [info] Executing the analyses from -1.5e-05 to 29.9933...
+[2021-02-18 15:19:27.729] [info] Printing results of investigation  to ./
+[2021-02-18 15:21:48.663] [info] Loaded model model from file RBDS001_scaledModelAdjusted_sensors.osim
+[2021-02-18 15:21:48.665] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-18 15:21:48.666] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-18 15:21:48.670] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-18 15:21:48.671] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-18 15:21:48.671] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-18 15:21:48.671] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-18 15:21:48.671] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-18 15:21:48.781] [cout] [info] 
+               MODEL: model
+         coordinates: 22
+              forces: 80
+           actuators: 80
+             muscles: 80
+            analyses: 0
+              probes: 0
+              bodies: 14
+              joints: 14
+         constraints: 2
+             markers: 49
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2021-02-18 15:21:48.782] [info] Running tool ...
+[2021-02-18 15:21:48.963] [info] Storage: read data file = RBDS001runT35_grf.mot (nr=9000 nc=19)
+[2021-02-18 15:21:49.066] [info] ExternalForce::RightGRF Data source being set to RBDS001runT35_grf
+[2021-02-18 15:21:49.066] [info] ExternalForce::LeftGRF Data source being set to RBDS001runT35_grf
+[2021-02-18 15:21:49.138] [info] Storage: read data file = RBDS001runT35_ik.mot (nr=4500 nc=23)
+[2021-02-18 15:21:49.215] [info] Low-pass filtering coordinates data with a cutoff frequency of 10.0...
+[2021-02-18 15:22:07.828] [info] InverseDynamicsTool: 4500 time frames in 13 second(s).
+[2021-02-18 15:22:08.121] [info] AbstractTool  loading model RBDS001_scaledModelAdjusted_sensors.osim
+[2021-02-18 15:22:08.188] [info] Loaded model model from file RBDS001_scaledModelAdjusted_sensors.osim
+[2021-02-18 15:22:08.278] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-18 15:22:08.279] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-18 15:22:08.281] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-18 15:22:08.368] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-18 15:22:08.368] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-18 15:22:08.369] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-18 15:22:08.373] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-18 15:22:08.839] [info] Storage: read data file = RBDS001runT35_grf.mot (nr=9000 nc=19)
+[2021-02-18 15:22:09.038] [info] ExternalForce::RightGRF Data source being set to RBDS001runT35_grf
+[2021-02-18 15:22:09.038] [info] ExternalForce::LeftGRF Data source being set to RBDS001runT35_grf
+[2021-02-18 15:22:09.062] [info] Loading coordinates from file 'RBDS001runT35_ik.mot'.
+[2021-02-18 15:22:09.063] [info] Storage: read data file = RBDS001runT35_ik.mot (nr=4500 nc=23)
+[2021-02-18 15:22:09.248] [info] Low-pass filtering coordinates data with a cutoff frequency of 10.0...
+[2021-02-18 15:22:17.343] [info] AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 2.4233263840045538e-08 required: 1e-10.
+[2021-02-18 15:22:17.357] [error] Model unable to assemble: AssemblySolver::assemble() Failed: SimTK Exception thrown at Assembler.cpp:897:
+  Method Assembler::assemble() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 2.4233263840045538e-08 required: 1e-10..Model relaxing constraints and trying again.
+[2021-02-18 15:22:27.229] [info] Found 9000 state vectors with time stamps ranging from -15.0 to 44.9933.
+[2021-02-18 15:22:27.230] [info] Executing the analyses from -1.5e-05 to 29.9933...
+[2021-02-18 15:22:58.751] [info] Printing results of investigation  to ./
+[2021-02-18 15:26:12.099] [info] Loaded model model from file RBDS001_scaledModelAdjusted_sensors.osim
+[2021-02-18 15:26:12.154] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-18 15:26:12.155] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-18 15:26:12.156] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-18 15:26:12.234] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-18 15:26:12.234] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-18 15:26:12.235] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-18 15:26:12.239] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-18 15:26:12.479] [cout] [info] 
+               MODEL: model
+         coordinates: 22
+              forces: 80
+           actuators: 80
+             muscles: 80
+            analyses: 0
+              probes: 0
+              bodies: 14
+              joints: 14
+         constraints: 2
+             markers: 49
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2021-02-18 15:26:12.480] [info] Running tool ...
+[2021-02-18 15:26:12.757] [info] Storage: read data file = RBDS001runT45_grf.mot (nr=9000 nc=19)
+[2021-02-18 15:26:12.947] [info] ExternalForce::RightGRF Data source being set to RBDS001runT45_grf
+[2021-02-18 15:26:12.948] [info] ExternalForce::LeftGRF Data source being set to RBDS001runT45_grf
+[2021-02-18 15:26:13.011] [info] Storage: read data file = RBDS001runT45_ik.mot (nr=4500 nc=23)
+[2021-02-18 15:26:13.154] [info] Low-pass filtering coordinates data with a cutoff frequency of 10.0...
+[2021-02-18 15:26:43.192] [info] InverseDynamicsTool: 4500 time frames in 20 second(s).
+[2021-02-18 15:26:43.515] [info] AbstractTool  loading model RBDS001_scaledModelAdjusted_sensors.osim
+[2021-02-18 15:26:43.596] [info] Loaded model model from file RBDS001_scaledModelAdjusted_sensors.osim
+[2021-02-18 15:26:43.598] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-18 15:26:43.599] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-18 15:26:43.599] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-18 15:26:43.603] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-18 15:26:43.604] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-18 15:26:43.604] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-18 15:26:43.605] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-18 15:26:43.983] [info] Storage: read data file = RBDS001runT45_grf.mot (nr=9000 nc=19)
+[2021-02-18 15:26:44.132] [info] ExternalForce::RightGRF Data source being set to RBDS001runT45_grf
+[2021-02-18 15:26:44.132] [info] ExternalForce::LeftGRF Data source being set to RBDS001runT45_grf
+[2021-02-18 15:26:44.150] [info] Loading coordinates from file 'RBDS001runT45_ik.mot'.
+[2021-02-18 15:26:44.150] [info] Storage: read data file = RBDS001runT45_ik.mot (nr=4500 nc=23)
+[2021-02-18 15:26:44.259] [info] Low-pass filtering coordinates data with a cutoff frequency of 10.0...
+[2021-02-18 15:26:52.053] [info] AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 2.4183161695390254e-08 required: 1e-10.
+[2021-02-18 15:26:52.065] [error] Model unable to assemble: AssemblySolver::assemble() Failed: SimTK Exception thrown at Assembler.cpp:897:
+  Method Assembler::assemble() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 2.4183161695390254e-08 required: 1e-10..Model relaxing constraints and trying again.
+[2021-02-18 15:27:01.931] [info] Found 9000 state vectors with time stamps ranging from -15.0 to 44.9933.
+[2021-02-18 15:27:01.931] [info] Executing the analyses from -1.5e-05 to 29.9933...
+[2021-02-18 15:27:23.418] [info] Printing results of investigation  to ./
+[2021-02-18 20:11:28.885] [info] Processing subject ...
+[2021-02-18 20:11:28.885] [info] Step 1: Loading generic model
+[2021-02-18 20:11:29.132] [info] Loaded model LaiArnold2017_refined_Fukuchi2017-Running from file ..\..\OpensimModel\LaiArnold2017_refined_Fukuchi2017-running.osim
+[2021-02-18 20:11:29.182] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-18 20:11:29.182] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-18 20:11:29.183] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-18 20:11:29.238] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-18 20:11:29.239] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-18 20:11:29.240] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-18 20:11:29.243] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-18 20:11:29.412] [info] Step 2: Scaling generic model
+[2021-02-18 20:11:29.496] [info] Loaded marker file RBDS001static.trc (48 markers, 150 frames)
+[2021-02-18 20:11:29.496] [info] Measurement 'pelvis_w'
+[2021-02-18 20:11:29.497] [info] 	pair 0 (R.ASIS, L.ASIS): model = 0.226592, experimental = 0.211665
+[2021-02-18 20:11:29.501] [info] 	pair 1 (R.PSIS, L.PSIS): model = 0.0910868, experimental = 0.0768436
+[2021-02-18 20:11:29.501] [info] 	overall scale factor = 0.888878
+[2021-02-18 20:11:29.502] [info] Measurement 'pelvis_d'
+[2021-02-18 20:11:29.502] [info] 	pair 0 (R.ASIS, R.PSIS): model = 0.180152, experimental = 0.18215
+[2021-02-18 20:11:29.502] [info] 	pair 1 (L.ASIS, L.PSIS): model = 0.180152, experimental = 0.188691
+[2021-02-18 20:11:29.503] [info] 	overall scale factor = 1.02925
+[2021-02-18 20:11:29.504] [info] Measurement 'pelvis_h'
+[2021-02-18 20:11:29.504] [info] 	pair 0 (R.ASIS, R.GTR): model = 0.143787, experimental = 0.141161
+[2021-02-18 20:11:29.504] [info] 	pair 1 (L.ASIS, L.GTR): model = 0.143787, experimental = 0.145919
+[2021-02-18 20:11:29.505] [info] 	pair 2 (R.PSIS, R.GTR): model = 0.191764, experimental = 0.193827
+[2021-02-18 20:11:29.505] [info] 	pair 3 (L.PSIS, L.GTR): model = 0.191763, experimental = 0.208402
+[2021-02-18 20:11:29.505] [info] 	pair 4 (R.Iliac.Crest, R.GTR): model = 0.203546, experimental = 0.173724
+[2021-02-18 20:11:29.506] [info] 	pair 5 (L.Iliac.Crest, L.GTR): model = 0.203546, experimental = 0.173833
+[2021-02-18 20:11:29.507] [info] 	overall scale factor = 0.966935
+[2021-02-18 20:11:29.507] [info] Measurement 'r_thigh_length'
+[2021-02-18 20:11:29.510] [info] 	pair 0 (R.GTR, R.Knee): model = 0.363281, experimental = 0.414263
+[2021-02-18 20:11:29.510] [info] 	overall scale factor = 1.14034
+[2021-02-18 20:11:29.511] [info] Measurement 'r_thigh_breadth'
+[2021-02-18 20:11:29.511] [info] 	pair 0 (R.Knee, R.Knee.Medial): model = 0.109391, experimental = 0.116991
+[2021-02-18 20:11:29.511] [info] 	overall scale factor = 1.06948
+[2021-02-18 20:11:29.512] [info] Measurement 'r_tibia_length'
+[2021-02-18 20:11:29.512] [info] 	pair 0 (R.HF, R.Ankle): model = 0.318649, experimental = 0.382141
+[2021-02-18 20:11:29.512] [info] 	overall scale factor = 1.19925
+[2021-02-18 20:11:29.512] [info] Measurement 'r_tibia_breadth'
+[2021-02-18 20:11:29.513] [info] 	pair 0 (R.Ankle, R.Ankle.Medial): model = 0.0912157, experimental = 0.0848813
+[2021-02-18 20:11:29.513] [info] 	overall scale factor = 0.930556
+[2021-02-18 20:11:29.513] [info] Measurement 'r_foot_length'
+[2021-02-18 20:11:29.514] [info] 	pair 0 (R.Heel.Top, R.MT2): model = 0.216289, experimental = 0.216893
+[2021-02-18 20:11:29.514] [info] 	overall scale factor = 1.00279
+[2021-02-18 20:11:29.514] [info] Measurement 'r_foot_height'
+[2021-02-18 20:11:29.515] [info] 	pair 0 (R.Heel.Top, R.Heel.Bottom): model = 0.0424332, experimental = 0.0495037
+[2021-02-18 20:11:29.515] [info] 	overall scale factor = 1.16663
+[2021-02-18 20:11:29.516] [info] Measurement 'l_thigh_length'
+[2021-02-18 20:11:29.516] [info] 	pair 0 (L.GTR, L.Knee): model = 0.363281, experimental = 0.417753
+[2021-02-18 20:11:29.518] [info] 	overall scale factor = 1.14994
+[2021-02-18 20:11:29.520] [info] Measurement 'l_thigh_breadth'
+[2021-02-18 20:11:29.520] [info] 	pair 0 (L.Knee, L.Knee.Medial): model = 0.109391, experimental = 0.112262
+[2021-02-18 20:11:29.521] [info] 	overall scale factor = 1.02625
+[2021-02-18 20:11:29.521] [info] Measurement 'l_tibia_length'
+[2021-02-18 20:11:29.521] [info] 	pair 0 (L.HF, L.Ankle): model = 0.318649, experimental = 0.38299
+[2021-02-18 20:11:29.522] [info] 	overall scale factor = 1.20192
+[2021-02-18 20:11:29.522] [info] Measurement 'l_tibia_breadth'
+[2021-02-18 20:11:29.522] [info] 	pair 0 (L.Ankle, L.Ankle.Medial): model = 0.0912157, experimental = 0.0814099
+[2021-02-18 20:11:29.522] [info] 	overall scale factor = 0.892499
+[2021-02-18 20:11:29.523] [info] Measurement 'l_foot_length'
+[2021-02-18 20:11:29.523] [info] 	pair 0 (L.Heel.Top, L.MT2): model = 0.216289, experimental = 0.220212
+[2021-02-18 20:11:29.523] [info] 	overall scale factor = 1.01814
+[2021-02-18 20:11:29.523] [info] Measurement 'l_foot_height'
+[2021-02-18 20:11:29.524] [info] 	pair 0 (L.Heel.Top, L.Heel.Bottom): model = 0.0424332, experimental = 0.0483985
+[2021-02-18 20:11:29.524] [info] 	overall scale factor = 1.14058
+[2021-02-18 20:11:29.837] [info] Wrote model file 'RBDS001_scaledModel.osim' from model.
+[2021-02-18 20:11:29.847] [info] Wrote scale file 'RBDS001_scaleSet.xml' for model model.
+[2021-02-18 20:11:29.847] [info] Step 3: Placing markers on model
+[2021-02-18 20:11:29.876] [info] Loaded marker file RBDS001static.trc (48 markers, 150 frames)
+[2021-02-18 20:11:29.876] [info] Averaged frames from time 0.0 to 0.5 in RBDS001static.trc (frames 1 to 76)
+[2021-02-18 20:11:29.878] [info] Deleted 1 unused markers from model model.
+[2021-02-18 20:11:29.983] [info] Frame at (t = 0.0):	 total squared error = 0.015228, marker error: RMS = 0.0233207, max = 0.0370468 (R.MT5)
+[2021-02-18 20:11:29.984] [info] Moved markers in model model to match locations in marker file 'RBDS001static.trc'.
+[2021-02-18 20:11:30.173] [info] Wrote model file 'RBDS001_scaledModelAdjusted.osim' from model model.
+[2021-02-18 20:11:30.277] [info] Loaded model model from file RBDS001_scaledModel.osim
+[2021-02-18 20:11:30.279] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-18 20:11:30.279] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-18 20:11:30.282] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-18 20:11:30.283] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-18 20:11:30.284] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-18 20:11:30.284] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-18 20:11:30.284] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-18 20:11:30.415] [info] Loaded model model from file RBDS001_scaledModelAdjusted.osim
+[2021-02-18 20:11:30.417] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-18 20:11:30.418] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-18 20:11:30.420] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-18 20:11:30.421] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-18 20:11:30.421] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-18 20:11:30.422] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-18 20:11:30.422] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-18 20:12:17.143] [info] Loaded model model from file RBDS001_scaledModelAdjusted_sensors.osim
+[2021-02-18 20:12:17.145] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-18 20:12:17.145] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-18 20:12:17.149] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-18 20:12:17.150] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-18 20:12:17.150] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-18 20:12:17.151] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-18 20:12:17.151] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-18 20:12:17.261] [cout] [info] 
+               MODEL: model
+         coordinates: 22
+              forces: 80
+           actuators: 80
+             muscles: 80
+            analyses: 0
+              probes: 0
+              bodies: 14
+              joints: 14
+         constraints: 2
+             markers: 49
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2021-02-18 20:12:17.263] [info] Running tool ...
+[2021-02-18 20:12:17.435] [info] Storage: read data file = RBDS001runT25_grf.mot (nr=9000 nc=19)
+[2021-02-18 20:12:17.555] [info] ExternalForce::RightGRF Data source being set to RBDS001runT25_grf
+[2021-02-18 20:12:17.555] [info] ExternalForce::LeftGRF Data source being set to RBDS001runT25_grf
+[2021-02-18 20:12:17.569] [info] Storage: read data file = RBDS001runT25_ik.mot (nr=4500 nc=23)
+[2021-02-18 20:12:17.644] [info] Low-pass filtering coordinates data with a cutoff frequency of 10.0...
+[2021-02-18 20:12:40.712] [info] InverseDynamicsTool: 4500 time frames in 18 second(s).
+[2021-02-18 20:17:27.920] [info] PointKinematics.setRelativeToBody: set relative-to body to ground.
+[2021-02-18 20:18:19.457] [info] PointKinematics.setBody: set body to tibia_r.
+[2021-02-18 20:22:10.582] [info] PointKinematics.setBody: set body to tibia_r.
+[2021-02-18 20:22:10.583] [info] PointKinematics.setRelativeToBody: set relative-to body to tibia_r.
+[2021-02-18 20:22:34.442] [info] PointKinematics.setBody: set body to talus_r.
+[2021-02-18 20:22:34.442] [info] PointKinematics.setRelativeToBody: set relative-to body to talus_r.
+[2021-02-18 20:23:14.411] [info] AbstractTool  loading model RBDS001_scaledModelAdjusted_sensors.osim
+[2021-02-18 20:23:14.473] [info] Loaded model model from file RBDS001_scaledModelAdjusted_sensors.osim
+[2021-02-18 20:23:14.475] [warning] Couldn't find file 'femur_r.vtp'.
+[2021-02-18 20:23:14.476] [warning] Couldn't find file 'tibia_r.vtp'.
+[2021-02-18 20:23:14.478] [warning] Couldn't find file 'fibula_r.vtp'.
+[2021-02-18 20:23:14.479] [warning] Couldn't find file 'femur_l.vtp'.
+[2021-02-18 20:23:14.479] [warning] Couldn't find file 'tibia_l.vtp'.
+[2021-02-18 20:23:14.480] [warning] Couldn't find file 'fibula_l.vtp'.
+[2021-02-18 20:23:14.480] [warning] Couldn't find file 'l_pat.vtp'.
+[2021-02-18 20:23:14.774] [info] Storage: read data file = RBDS001runT25_grf.mot (nr=9000 nc=19)
+[2021-02-18 20:23:14.875] [info] ExternalForce::RightGRF Data source being set to RBDS001runT25_grf
+[2021-02-18 20:23:14.875] [info] ExternalForce::LeftGRF Data source being set to RBDS001runT25_grf
+[2021-02-18 20:23:14.889] [info] Loading coordinates from file 'RBDS001runT25_ik.mot'.
+[2021-02-18 20:23:14.890] [info] Storage: read data file = RBDS001runT25_ik.mot (nr=4500 nc=23)
+[2021-02-18 20:23:14.966] [info] Low-pass filtering coordinates data with a cutoff frequency of 10.0...
+[2021-02-18 20:23:21.313] [info] AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 7.5560037716105719e-09 required: 1e-10.
+[2021-02-18 20:23:21.321] [error] Model unable to assemble: AssemblySolver::assemble() Failed: SimTK Exception thrown at Assembler.cpp:897:
+  Method Assembler::assemble() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 7.5560037747685622e-09 required: 1e-10..Model relaxing constraints and trying again.
+[2021-02-18 20:23:28.164] [info] Found 9000 state vectors with time stamps ranging from -15.0 to 44.9933.
+[2021-02-18 20:23:28.164] [info] Executing the analyses from -1.5e-05 to 29.9933...
+[2021-02-18 20:23:44.407] [info] PointKinematics.end: Finalizing analysis KCJ_PointKinematics.
+[2021-02-18 20:23:44.407] [info] PointKinematics.end: Finalizing analysis ACJ_PointKinematics.
+[2021-02-18 20:23:44.409] [info] Printing results of investigation  to ./
+[2021-02-19 16:00:15.286] [error] IO.OpenInputFile(const string&,openmode mode): failed to open RBDS001runT25.c3d_grf.mot.
+[2021-02-19 16:00:46.308] [info] Storage: read data file = RBDS001runT25_grf.mot (nr=9000 nc=19)
+[2021-02-19 16:00:54.222] [info] Storage: read data file = RBDS001runT25_grf.mot (nr=9000 nc=19)
+[2021-02-19 16:01:52.824] [info] Storage: read data file = RBDS001runT25_AJC_pos.sto (nr=4500 nc=4)
+[2021-02-19 16:01:52.875] [info] Storage: read data file = RBDS001runT25_KJC_pos.sto (nr=4500 nc=4)
+[2021-02-19 16:02:34.375] [info] Storage: read data file = RBDS001runT25_id.sto (nr=4500 nc=23)
+[2021-02-19 16:16:34.172] [info] Storage: read data file = RBDS001runT25_grf.mot (nr=9000 nc=19)
+[2021-02-19 16:17:04.895] [info] Storage: read data file = RBDS001runT25_grf.mot (nr=9000 nc=19)
+[2021-02-19 16:17:43.377] [info] Storage: read data file = RBDS001runT25_AJC_pos.sto (nr=4500 nc=4)
+[2021-02-19 16:17:43.422] [info] Storage: read data file = RBDS001runT25_KJC_pos.sto (nr=4500 nc=4)
+[2021-02-19 16:18:21.695] [info] Storage: read data file = RBDS001runT25_id.sto (nr=4500 nc=23)
+[2021-02-19 19:55:26.109] [info] Storage: read data file = RBDS001runT25_grf.mot (nr=9000 nc=19)
+[2021-02-19 19:55:26.282] [info] Storage: read data file = RBDS001runT25_AJC_pos.sto (nr=4500 nc=4)
+[2021-02-19 19:55:30.931] [info] Storage: read data file = RBDS001runT25_KJC_pos.sto (nr=4500 nc=4)
+[2021-02-19 19:55:30.971] [info] Storage: read data file = RBDS001runT25_id.sto (nr=4500 nc=23)
+[2021-02-19 20:06:04.234] [info] Storage: read data file = RBDS001runT25_grf.mot (nr=9000 nc=19)
+[2021-02-19 20:06:04.395] [info] Storage: read data file = RBDS001runT25_AJC_pos.sto (nr=4500 nc=4)
+[2021-02-19 20:06:04.437] [info] Storage: read data file = RBDS001runT25_KJC_pos.sto (nr=4500 nc=4)
+[2021-02-19 20:06:04.477] [info] Storage: read data file = RBDS001runT25_id.sto (nr=4500 nc=23)
+[2021-02-19 20:08:07.662] [info] Storage: read data file = RBDS001runT25_grf.mot (nr=9000 nc=19)
+[2021-02-19 20:09:30.124] [info] Storage: read data file = RBDS001runT25_grf.mot (nr=9000 nc=19)
+[2021-02-19 20:09:30.334] [info] Storage: read data file = RBDS001runT25_AJC_pos.sto (nr=4500 nc=4)
+[2021-02-19 20:09:30.372] [info] Storage: read data file = RBDS001runT25_KJC_pos.sto (nr=4500 nc=4)
+[2021-02-19 20:11:53.802] [info] Storage: read data file = RBDS001runT25_id.sto (nr=4500 nc=23)
+[2021-02-19 20:19:43.020] [info] Storage: read data file = RBDS001runT25_grf.mot (nr=9000 nc=19)
+[2021-02-19 20:21:01.916] [info] Storage: read data file = RBDS001runT25_grf.mot (nr=9000 nc=19)
+[2021-02-19 20:21:02.124] [info] Storage: read data file = RBDS001runT25_AJC_pos.sto (nr=4500 nc=4)
+[2021-02-19 20:21:02.161] [info] Storage: read data file = RBDS001runT25_KJC_pos.sto (nr=4500 nc=4)
+[2021-02-19 20:21:02.197] [info] Storage: read data file = RBDS001runT25_id.sto (nr=4500 nc=23)
+[2021-02-19 20:40:48.683] [info] Storage: read data file = RBDS001runT25_grf.mot (nr=9000 nc=19)
+[2021-02-19 20:40:48.894] [info] Storage: read data file = RBDS001runT25_AJC_pos.sto (nr=4500 nc=4)
+[2021-02-19 20:40:48.978] [info] Storage: read data file = RBDS001runT25_KJC_pos.sto (nr=4500 nc=4)
+[2021-02-19 20:40:49.015] [info] Storage: read data file = RBDS001runT25_id.sto (nr=4500 nc=23)
+[2021-03-01 14:25:31.631] [info] Storage: read data file = RBDS001runT25_grf.mot (nr=9000 nc=19)
+[2021-03-01 14:25:32.002] [info] Storage: read data file = RBDS001runT25_AJC_pos.sto (nr=4500 nc=4)
+[2021-03-01 14:25:32.084] [info] Storage: read data file = RBDS001runT25_KJC_pos.sto (nr=4500 nc=4)
+[2021-03-01 14:25:32.169] [info] Storage: read data file = RBDS001runT25_id.sto (nr=4500 nc=23)
+[2021-03-01 14:35:49.663] [info] Storage: read data file = RBDS001runT25_BodyKinematics_vel_bodyLocal.sto (nr=4500 nc=13)
